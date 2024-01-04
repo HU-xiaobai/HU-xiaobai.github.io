@@ -1,4 +1,4 @@
-n# Welcome to Jekyll!
+# Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
@@ -6,14 +6,14 @@ n# Welcome to Jekyll!
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "Edinburgh"
-title                    : "Zhanghao Hu / Personal Homepage"
+locale                   : "en-US"
+title                    : "Hanxu Hu"
 title_separator          : "-"
-name                     : &name "Zhanghao Hu"
-description              : &description "A graduate AI MSc student at the University of Edinburgh"
-url                      : https://hu-xiaobai.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "hu-xiaobai.github.io"
+name                     : &name "Hanxu Hu"
+description              : &description "NLP Student"
+url                      : "https://hanxuhu.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/" # the subpath of your site, e.g. "/blog"
+repository               : "hanxuhu.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,15 +80,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Zhanghao Hu"
-  avatar           : "Zhanghao_Hu.png"
-  bio              : "An enthusiastic NLP Student in the LLM era"
+  name             : "Hanxu Hu"
+  avatar           : "avatar_2024.jpg"
+  bio              : "A trivial NLP Student in the LLM era"
   location         : "Edinburgh"
   employer         :
-  pubmed           : 
-  googlescholar    : 
-  email            :
-  researchgate     : 
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=r9fCUd8AAAAJ"
+  email            : "hanxu.hu@ed.ac.uk"
+  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
   codepen          :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/HU-xiaobai"
+  github           : "hanxuhu"
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : 
+  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : 
+  orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
-  stackoverflow    : 
+  stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : "huhanxu1"
   vine             :
   weibo            :
   xing             :
