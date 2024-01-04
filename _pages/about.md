@@ -12,6 +12,6 @@ Currently, I am a graduate MSc student in Artificial Intelligence at the Univers
 
 My current research interests focus on **multi-modal natural language processing (NLP) models understanding and human-machine interactive AI**, e.g. cross-modality (Vision-language-audio Environment Understanding), Robustness (Reliable Artificial Intelligence), and collaboration (Interactive AI Communication). Generally speaking, my goal is to enhance 1) _the robust cross-modality alignment and comprehension abilities in interactive communication environments_, and 2) _advancing knowledge-based large language models (LLMs) and agents to refine co-generation and reasoning_. My long-term objective is to construct a robust AI framework harmonizing natural language understanding and generation, dismantling barriers in human-machine communication. 
 
-You can find my CV/Resume here:
+You can find my CV/Resume here:[Zhanghao HU's Curriculum Vitae](../files/Zhanghao_HU_CV.pdf)
 
 
