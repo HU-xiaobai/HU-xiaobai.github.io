@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Hanxu Hu"
+title                    : "Zhanghao Hu"
 title_separator          : "-"
-name                     : &name "Hanxu Hu"
+name                     : &name "Zhanghao Hu"
 description              : &description "NLP Student"
-url                      : "https://hanxuhu.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://hu-xiaobai.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/" # the subpath of your site, e.g. "/blog"
-repository               : "hanxuhu.github.io"
+repository               : "HU-xiaobai.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Hanxu Hu"
-  avatar           : "avatar_2024.jpg"
-  bio              : "A trivial NLP Student in the LLM era"
+  name             : "Zhanghao Hu"
+  avatar           : "Zhanghao_Hu.png"
+  bio              : "An enthusiastic NLP Student in the LLM era"
   location         : "Edinburgh"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "https://scholar.google.com/citations?hl=en&user=r9fCUd8AAAAJ"
-  email            : "hanxu.hu@ed.ac.uk"
+  googlescholar    : #"https://scholar.google.com/citations?hl=en&user=r9fCUd8AAAAJ"
+  email            : "huzh666295@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "hanxuhu"
+  github           : "HU-xiaobai"
   google_plus      :
   keybase          :
   instagram        :
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "huhanxu1"
+  twitter          : #"huhanxu1"
   vine             :
   weibo            :
   xing             :
