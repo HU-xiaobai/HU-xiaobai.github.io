@@ -48,6 +48,5 @@ Working Experience
 ------ 
 *    Research Assistant at [University of Edinburgh](https://www.ed.ac.uk/), 2022.6 - 2022.8.
     
-    
-<a href='https://clustrmaps.com/site/1bwkx'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=ffffff&w=569&t=n&d=ro_Adg9UnIt17bbXt17jo3lMvJq1MsilPhT7EpuxCbI'/></a>
+<a href="http://www.clustrmaps.com/map/Hu-xiaobai.github.io" title="Visit tracker for Hu-xiaobai.github.io"><img src="//www.clustrmaps.com/map_v2.png?d=lC8xf7GWbLCBnWh7I-lueayltNozk_xR93g5LfejVDI" /></a>
 
