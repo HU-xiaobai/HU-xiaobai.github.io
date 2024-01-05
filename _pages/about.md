@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -13,5 +13,21 @@ Currently, I am a graduate MSc student in Artificial Intelligence at the Univers
 My current research interests focus on **multi-modal natural language processing (NLP) models understanding and human-machine interactive AI**, e.g. cross-modality (Vision-language-audio Environment Understanding), Robustness (Reliable Artificial Intelligence), and collaboration (Interactive AI Communication). Generally speaking, my goal is to enhance 1) _the robust cross-modality alignment and comprehension abilities in interactive communication environments_, and 2) _advancing knowledge-based large language models (LLMs) and agents to refine co-generation and reasoning_. My long-term objective is to construct a robust AI framework harmonizing natural language understanding and generation, dismantling barriers in human-machine communication. 
 
 You can find my CV/Resume here:[Zhanghao HU's Curriculum Vitae](../files/Zhanghao_HU_CV.pdf)
+
+Education
+------
+*    MSc in Artificial Intelligence, University of Edinburgh, 2022.9 - 2023.11, **Distinction Degree, ranking about top 10%**.
+*    Bachelor in Electronics and Electrical Engineering, University of Edinburgh, 2020.9 - 2022.5, **First-Class Honour Degree, ranking about top 10%**.
+*    Bachelor in Electrical Engineering and Its Automation, NCEPU, 2018.9 - 2020.6, **ranking around 15%**.
+
+Honors & Awards
+------
+*    (2023) **IBM shortlist** for Best Project in Machine Learning Practical Course, ranking 5/103.
+*    (2022) _**NCEPU 2022 Outstanding Graduates**_.
+*    (2022) Awarded **£3000** by the University of Edinburgh for 2+2 Excellent International Students.
+*    (2021) Awarded **£2500** by the University of Edinburgh for 2+2 Excellent International Students.
+*    (2020) The Third Prize Academic Scholarship, NCEPU (awarded to 10%)
+*    (2019) The Second Prize Academic Scholarship, NCEPU (awarded to 5%)
+    
 
 
