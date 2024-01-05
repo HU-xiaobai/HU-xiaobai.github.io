@@ -20,6 +20,21 @@ Education
 *    Bachelor in Electronics and Electrical Engineering, University of Edinburgh, 2020.9 - 2022.5, **First-Class Honour Degree, ranking about top 10%**.
 *    Bachelor in Electrical Engineering and Its Automation, NCEPU, 2018.9 - 2020.6, **ranking around 15%**.
 
+Publication and Pre-prints
+------
+* [**EEE-QA: Exploring Effective and Efficient Question-Answer Representations**]  
+**Zhanghao Hu<sup>*</sup>**, Yijun Yang<sup>*</sup>, Yunjie Xu<sup>*</sup>, Yifu Qiu, Patrick Chen  
+Accepted at **AAAI 2024 DEPLOYABLE AI**.
+
+* [**Exploring Effective and Efficient Question-Answer Representations**]  
+**Zhanghao Hu<sup>*</sup>**, Yijun Yang<sup>*</sup>, Yunjie Xu<sup>*</sup>, Yifu Qiu, Patrick Chen 
+(Under review) Submitted to **COLING 2024**.
+
+* [**Causal and Temporal Inference in Visual Question Generation by Utilizing Pre-trained Models**]
+**Zhanghao Hu**, Frank Keller
+(Preparing) Targeting to IJCAI 2024.   
+    
+
 Honors & Awards
 ------
 *    (2023) **IBM shortlist** for Best Project in Machine Learning Practical Course, ranking 5/103.
@@ -28,6 +43,11 @@ Honors & Awards
 *    (2021) Awarded **£2500** by the University of Edinburgh for 2+2 Excellent International Students.
 *    (2020) The Third Prize Academic Scholarship, NCEPU (awarded to 10%)
 *    (2019) The Second Prize Academic Scholarship, NCEPU (awarded to 5%)
-    
 
+Working Experience
+------ 
+*    Research Assistant at [University of Edinburgh](https://www.ed.ac.uk/), 2022.6 - 2022.8.
+    
+    
+<a href='https://clustrmaps.com/site/1bwkx'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=ffffff&w=569&t=n&d=ro_Adg9UnIt17bbXt17jo3lMvJq1MsilPhT7EpuxCbI'/></a>
 
