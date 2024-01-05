@@ -23,15 +23,15 @@ Education
 Publication and Pre-prints
 ------
 * [**EEE-QA: Exploring Effective and Efficient Question-Answer Representations**]  
-**Zhanghao Hu<sup>*</sup>**, Yijun Yang<sup>*</sup>, Yunjie Xu<sup>*</sup>, Yifu Qiu, Patrick Chen  
+**Zhanghao Hu<sup>*</sup>**, Yijun Yang<sup>*</sup>, Yunjie Xu<sup>*</sup>, Yifu Qiu, Patrick Chen      
 Accepted at **AAAI 2024 DEPLOYABLE AI**.
 
 * [**Exploring Effective and Efficient Question-Answer Representations**]  
-**Zhanghao Hu<sup>*</sup>**, Yijun Yang<sup>*</sup>, Yunjie Xu<sup>*</sup>, Yifu Qiu, Patrick Chen 
-(Under review) Submitted to **COLING 2024**.
+**Zhanghao Hu<sup>*</sup>**, Yijun Yang<sup>*</sup>, Yunjie Xu<sup>*</sup>, Yifu Qiu, Patrick Chen  
+(Under review) Submitted to **COLING 2024**.  
 
-* [**Causal and Temporal Inference in Visual Question Generation by Utilizing Pre-trained Models**]
-**Zhanghao Hu**, Frank Keller
+* [**Causal and Temporal Inference in Visual Question Generation by Utilizing Pre-trained Models**]  
+**Zhanghao Hu**, Frank Keller  
 (Preparing) Targeting to IJCAI 2024.   
     
 
