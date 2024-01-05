@@ -50,5 +50,4 @@ Working Experience
 
 ------
     
-<a href="http://www.clustrmaps.com/map/Hu-xiaobai.github.io" title="Visit tracker for Hu-xiaobai.github.io"><img src="//www.clustrmaps.com/map_v2.png?d=lC8xf7GWbLCBnWh7I-lueayltNozk_xR93g5LfejVDI" /></a>
-
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=lC8xf7GWbLCBnWh7I-lueayltNozk_xR93g5LfejVDI"></script>
