@@ -14,6 +14,10 @@ My current research interests focus on **multi-modal natural language processing
 
 You can find my CV/Resume here:[Zhanghao HU's Curriculum Vitae](../files/Zhanghao_HU_CV.pdf)
 
+<font size=5 color=RED>_**I am actively looking for a PhD position in 2024 Fall. I’m open to any meaningful research topics during my doctoral studies.**_</font>
+
+<font color=red>这是红色的文字</font>
+
 Education
 ------
 *    MSc in Artificial Intelligence, University of Edinburgh, 2022.9 - 2023.11, **Distinction Degree, ranking about top 10%**.
