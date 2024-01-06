@@ -14,7 +14,7 @@ My current research interests focus on **multi-modal natural language processing
 
 You can find my CV/Resume here:[Zhanghao HU's Curriculum Vitae](../files/Zhanghao_HU_CV.pdf)
 
-_**<font size=5 color=RED>I am actively looking for a PhD position in 2024 Fall. I’m open to any meaningful research topics during my doctoral studies.</font>**_
+_**<font size=4 color=RED>I am actively looking for a PhD position in 2024 Fall. I’m open to any meaningful research topics during my doctoral studies.</font>**_
 
 
 Education
