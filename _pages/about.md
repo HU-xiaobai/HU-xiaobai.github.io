@@ -16,6 +16,11 @@ You can find my CV/Resume here:[Zhanghao HU's Curriculum Vitae](../files/Zhangha
 
 _**<font size=3 color=RED>I am actively looking for a PhD position in 2024 Fall. I’m open to any meaningful research topics during my doctoral studies.</font>**_
 
+News
+-----
+*   20th Feb. 2023, Our Paper [**Exploring Effective and Efficient Question-Answer Representations**] has been accepted by **COLING 2024**!
+
+*   13th Dec. 2023, Our Paper [**EEE-QA: Exploring Effective and Efficient Question-Answer Representations**] has been accepted by **AAAI 2024 DEPLOYABLE AI**!
 
 Education
 ------
@@ -27,15 +32,15 @@ Publication and Pre-prints
 ------
 * [**EEE-QA: Exploring Effective and Efficient Question-Answer Representations**]  
 **Zhanghao Hu<sup>*</sup>**, Yijun Yang<sup>*</sup>, Yunjie Xu<sup>*</sup>, Yifu Qiu, Patrick Chen      
-Accepted at **AAAI 2024 DEPLOYABLE AI**.
+Accepted by **AAAI 2024 DEPLOYABLE AI**.
 
 * [**Exploring Effective and Efficient Question-Answer Representations**]  
 **Zhanghao Hu<sup>*</sup>**, Yijun Yang<sup>*</sup>, Yunjie Xu<sup>*</sup>, Yifu Qiu, Patrick Chen  
-(Under review) Submitted to **COLING 2024**.  
+Accepted by **COLING 2024**.  
 
 * [**Causal and Temporal Inference in Visual Question Generation by Utilizing Pre-trained Models**]  
 **Zhanghao Hu**, Frank Keller  
-(Preparing) Targeting to IJCAI 2024.   
+(Preparing) Targeting to NAACL 2024 Workshop.   
     
 
 Honors & Awards
