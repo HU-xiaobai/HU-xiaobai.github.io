@@ -20,7 +20,7 @@ News
 -----
 *   18th June. 2024, Our Paper [**Causal and Temporal Inference in Visual Question Generation by Utilizing Pre-trained Models**] has been accepted by **ACL ALVR(Advances in Language and Vision Research) 2024**!
 
-*   20th Feb. 2023, Our Paper [**Exploring Effective and Efficient Question-Answer Representations**] has been accepted by **COLING 2024**!
+*   20th Feb. 2024, Our Paper [**Exploring Effective and Efficient Question-Answer Representations**] has been accepted by **COLING 2024**!
 
 *   13th Dec. 2023, Our Paper [**EEE-QA: Exploring Effective and Efficient Question-Answer Representations**] has been accepted by **AAAI 2024 DEPLOYABLE AI**!
 
