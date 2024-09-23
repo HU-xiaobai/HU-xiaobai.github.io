@@ -8,13 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-Currently, I am a graduate MSc student in Artificial Intelligence at the University of Edinburgh. Before that, I was a BEng student in the joint bachelor's program between NCEPU and the University of Edinburgh. I am very fortunate to be supervised by Prof. [Frank Keller](https://homepages.inf.ed.ac.uk/keller/) for the MSc thesis and [Dr. Jiabin Jia](https://www.eng.ed.ac.uk/about/people/dr-jiabin-jia) for the BEng thesis.
+Currently, I am a first-year PhD student at King's College London supervised by Dr. [Lin Gui](https://sites.google.com/view/lin-gui/about-me) and Prof. [Yulan He](https://sites.google.com/view/yulanhe). Before that, I was a MSc student in Artificial Intelligence at the University of Edinburgh and a BEng student in the joint bachelor's program between NCEPU and the University of Edinburgh. I am very fortunate to be supervised by Prof. [Frank Keller](https://homepages.inf.ed.ac.uk/keller/) for the MSc thesis and [Dr. Jiabin Jia](https://www.eng.ed.ac.uk/about/people/dr-jiabin-jia) for the BEng thesis. Besides research, I have interned at [01.AI](https://www.lingyiwanwu.com/) for five months, where I worked on the full process of voice cloning for digital live streaming.
+
+
 
 My current research interests focus on **multi-modal natural language processing (NLP) models understanding and human-machine interactive AI**, e.g. cross-modality (Vision-language-audio Environment Understanding), Robustness (Reliable Artificial Intelligence), and collaboration (Interactive AI Communication). Generally speaking, my goal is to enhance 1) _the robust cross-modality alignment and comprehension abilities in interactive communication environments_, and 2) _advancing knowledge-based large language models (LLMs) and agents to refine co-generation and reasoning_. My long-term objective is to construct a robust AI framework harmonizing natural language understanding and generation, dismantling barriers in human-machine communication. 
 
 You can find my CV/Resume here:[Zhanghao HU's Curriculum Vitae](../files/Zhanghao_HU_CV.pdf)
-
-_**<font size=3 color=RED>I am actively looking for a PhD position in 2024 Fall. I’m open to any meaningful research topics during my doctoral studies.</font>**_
 
 News
 -----
@@ -56,7 +56,8 @@ Honors & Awards
 
 Working Experience
 ------ 
-*    Research Assistant at [University of Edinburgh](https://www.ed.ac.uk/), 2022.6 - 2022.8.
+*    Research Intern at [01.AI](https://www.lingyiwanwu.com/), 2024.04 - 2024.08
+*    Research Assistant at [University of Edinburgh](https://www.ed.ac.uk/), 2022.06 - 2022.08.
 
 ------
     
