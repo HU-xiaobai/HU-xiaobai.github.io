@@ -33,6 +33,7 @@ Education
 Publication and Pre-prints
 ------
 * [**Human Motion Video Generation: A Survey**]
+
 Haiwei Xue, Xiangyang Luo, **Zhanghao Hu**,Xin Zhang, Xunzhi Xiang, Yuqin Dai, Jianzhuang Liu, Zhensong Zhang, Minglei Li, Jian Yang, Fei Ma, Zhiyong Wu, Changpeng Yang, Zonghong Dai, Fei Richard Yu
 
 * [**EEE-QA: Exploring Effective and Efficient Question-Answer Representations**]  
