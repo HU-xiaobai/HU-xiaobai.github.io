@@ -12,7 +12,7 @@ Currently, I am a first-year PhD student at King's College London supervised by 
 
 
 
-My current research interests focus on **multi-modal natural language processing (NLP) models understanding and human-machine interactive AI**, e.g. cross-modality (Vision-language-audio Environment Understanding), Robustness (Reliable Artificial Intelligence), and collaboration (Interactive AI Communication). Generally speaking, my goal is to enhance 1) _the robust cross-modality alignment and comprehension abilities in interactive communication environments_, and 2) _advancing knowledge-based large language models (LLMs) and agents to refine co-generation and reasoning_. My long-term objective is to construct a robust AI framework harmonizing natural language understanding and generation, dismantling barriers in human-machine communication. 
+My current research interests focus on **multi-modal natural language processing (NLP) models understanding and human-machine interactive AI**, e.g. cross-modality (Vision-language-audio Environment Understanding), Robustness (Reliable Artificial Intelligence), and collaboration (Interactive AI Communication). Generally speaking, my goal is to enhance 1) _the robust cross-modality alignment and comprehension abilities in interactive communication environments_, and 2) _advancing knowledge-based large language models (LLMs) and agents to refine reasoning_. My long-term objective is to construct a robust AI framework harmonizing natural language understanding and generation, dismantling barriers in human-machine communication. 
 
 You can find my CV/Resume here:[Zhanghao HU's Curriculum Vitae](../files/Zhanghao_HU_CV.pdf)
 
@@ -32,6 +32,9 @@ Education
 
 Publication and Pre-prints
 ------
+* [**Human Motion Video Generation: A Survey**]
+Haiwei Xue, Xiangyang Luo, **Zhanghao Hu**,Xin Zhang, Xunzhi Xiang, Yuqin Dai, Jianzhuang Liu, Zhensong Zhang, Minglei Li, Jian Yang, Fei Ma, Zhiyong Wu, Changpeng Yang, Zonghong Dai, Fei Richard Yu
+
 * [**EEE-QA: Exploring Effective and Efficient Question-Answer Representations**]  
 **Zhanghao Hu<sup>*</sup>**, Yijun Yang<sup>*</sup>, Yunjie Xu<sup>*</sup>, Yifu Qiu, Patrick Chen      
 Accepted by **AAAI 2024 DEPLOYABLE AI**.
