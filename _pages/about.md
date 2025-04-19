@@ -34,15 +34,20 @@ My research interests lie in the intersection of Natural Language Processing and
 
 
 # 🔥 News
-<div style="max-height: 300px; overflow-y: scroll; padding-right: 10px;">
-  
-- **2024.06**: Our paper *[Causal and Temporal Inference in Visual Question Generation by Utilizing Pre-trained Models]* has been accepted by **ACL ALVR (Advances in Language and Vision Research) 2024**! 🎉
 
-- **2024.02**: Our paper *[Exploring Effective and Efficient Question-Answer Representations]* has been accepted by **COLING 2024**! ✨
+<div style="max-height: 300px; overflow-y: auto; padding-left: 10px; border-left: 2px solid #ccc;">
 
-- **2023.12**: Our paper *[EEE-QA: Exploring Effective and Efficient Question-Answer Representations]* has been accepted by **AAAI 2024 DEPLOYABLE AI**! 🚀
+<p><b>📅 2024.06</b><br>
+➡️ Our paper <i>Causal and Temporal Inference in Visual Question Generation by Utilizing Pre-trained Models</i> has been accepted by <b>ACL ALVR 2024</b>! 🎉</p>
+
+<p><b>📅 2024.02</b><br>
+➡️ Our paper <i>Exploring Effective and Efficient Question-Answer Representations</i> has been accepted by <b>COLING 2024</b>! ✨</p>
+
+<p><b>📅 2023.12</b><br>
+➡️ Our paper <i>EEE-QA: Exploring Effective and Efficient Question-Answer Representations</i> has been accepted by <b>AAAI 2024 DEPLOYABLE AI</b>! 🚀</p>
 
 </div>
+
 
 # 📝 Publications 
 
