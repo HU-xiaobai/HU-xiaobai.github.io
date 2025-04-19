@@ -28,7 +28,7 @@ My research interests lie in the intersection of Natural Language Processing and
 
 * Effectiveness and Efficiency in Question Answering implemented by large language models, such as [EEE-QA, COLING 2024](https://aclanthology.org/2024.lrec-main.490/): A gate layer framework in multi-choice question, and [EmbQA](https://arxiv.org/abs/2503.01606): A rerank-reading system with an unsupervised contrastive learning framework in the rerank and an exploratory embedding mechanism in the reading framework.
 
-* Reasoning in latent space, such as [CODI}(https://arxiv.org/abs/2502.21074): Train a large language model (LLM) to perform reasoning without explicitly generating Chain-of-Thought (CoT) tokens.
+* Reasoning in latent space, such as [CODI](https://arxiv.org/abs/2502.21074): Train a large language model (LLM) to perform reasoning without explicitly generating Chain-of-Thought (CoT) tokens.
 
 * Multi-modal interpretability and application, such as [Causal and temporal inference in videos QA, ACL ALVR 2024](https://aclanthology.org/2024.alvr-1.12/), and [Human motion video generation](https://www.techrxiv.org/doi/full/10.36227/techrxiv.172793202.22697340)
 
