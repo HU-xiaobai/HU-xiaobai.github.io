@@ -35,17 +35,12 @@ My research interests lie in the intersection of Natural Language Processing and
 
 # 🔥 News
 <div style="max-height: 300px; overflow-y: scroll; padding-right: 10px;">
-- **2024.06**: Our paper  
-  *[Causal and Temporal Inference in Visual Question Generation by Utilizing Pre-trained Models]*  
-  has been accepted by **ACL ALVR (Advances in Language and Vision Research) 2024**! 🎉
+  
+- **2024.06**: Our paper *[Causal and Temporal Inference in Visual Question Generation by Utilizing Pre-trained Models]* has been accepted by **ACL ALVR (Advances in Language and Vision Research) 2024**! 🎉
 
-- **2024.02**: Our paper  
-  *[Exploring Effective and Efficient Question-Answer Representations]*  
-  has been accepted by **COLING 2024**! ✨
+- **2024.02**: Our paper *[Exploring Effective and Efficient Question-Answer Representations]* has been accepted by **COLING 2024**! ✨
 
-- **2023.12**: Our paper  
-  *[EEE-QA: Exploring Effective and Efficient Question-Answer Representations]*  
-  has been accepted by **AAAI 2024 DEPLOYABLE AI**! 🚀
+- **2023.12**: Our paper *[EEE-QA: Exploring Effective and Efficient Question-Answer Representations]* has been accepted by **AAAI 2024 DEPLOYABLE AI**! 🚀
 
 </div>
 
@@ -79,14 +74,11 @@ My research interests lie in the intersection of Natural Language Processing and
 - *2019.10* Second Prize Academic Scholarship, NCEPU, Awarded to top 5% of students
 
 # 📖 Educations
-- *2022.09 – 2023.11*, **MSc in Artificial Intelligence**, University of Edinburgh  
-  Distinction Degree, ranked top ~10%
+- *2022.09 – 2023.11*, **MSc in Artificial Intelligence**, University of Edinburgh, Distinction Degree, ranked top ~10%
 
-- *2020.09 – 2022.05*, **Bachelor in Electronics and Electrical Engineering**, University of Edinburgh  
-  First-Class Honour Degree, ranked top ~10%
+- *2020.09 – 2022.05*, **Bachelor in Electronics and Electrical Engineering**, University of Edinburgh, First-Class Honour Degree, ranked top ~10%
 
-- *2018.09 – 2020.06*, **Bachelor in Electrical Engineering and Its Automation**, North China Electric Power University (NCEPU)  
-  Ranked ~15%
+- *2018.09 – 2020.06*, **Bachelor in Electrical Engineering and Its Automation**, North China Electric Power University (NCEPU) Ranked ~15%
 
 
 # 💬 Invited Talks
