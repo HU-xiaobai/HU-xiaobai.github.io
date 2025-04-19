@@ -17,14 +17,37 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+# ✨ About me
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+Hi, everyone! I am currently a first-year PhD student (10.2024-) at [King's College London, NLP group](https://kclnlp.github.io/), School of Informatics. I am fortunate to be supervised by [Dr. Lin Gui](https://sites.google.com/view/lin-gui/about-me) and [Prof. Yulan He](https://sites.google.com/view/yulanhe). I finished my MSC AI at the University of Edinburgh and my BEng EEE project jointly at the University of Edinburgh and North China Electric Power University(NCEPU). I am fortunate to be supervised by [Prof. Frank Keller]([https://sites.google.com/view/lin-gui/about-me](https://homepages.inf.ed.ac.uk/keller/) for my MSC and [Dr. Jiabin Jia](https://eng.ed.ac.uk/about/people/dr-jiabin-jia) for my BEng.
+
+In addition to research, I interned for four months as a full-stack engineer specialising in voice cloning algorithms at [01.AI](https://www.01.ai/).
+
+# 🔍 Research Summary
+My research interests lie in the intersection of Natural Language Processing and Multi-modal Learning, i.e., cross-modality (Vision-language-audio Environment Understanding), text-generation (Open domain/long-form question answering), and reasoning (Embedding planning, latent embedding learning), to enhance the fundamental reliability and multi-modal ability of NLP models. Generally speaking, my goal is to enhance 1) the robust cross-modality alignment and comprehension abilities in interactive communication environments, and 2) advancing knowledge-based large language models (LLMs) and agents to refine reasoning. My long-term objective is to construct a robust AI framework harmonising natural language understanding and generation, dismantling barriers in human-machine communication.
+
+* Effectiveness and Efficiency in Question Answering implemented by large language models, such as [EEE-QA, COLING 2024](https://aclanthology.org/2024.lrec-main.490/): A gate layer framework in multi-choice question, and [EmbQA](https://arxiv.org/abs/2503.01606): A rerank-reading system with an unsupervised contrastive learning framework in the rerank and an exploratory embedding mechanism in the reading framework.
+
+* Reasoning in latent space, such as [CODI}(https://arxiv.org/abs/2502.21074): Train a large language model (LLM) to perform reasoning without explicitly generating Chain-of-Thought (CoT) tokens.
+
+* Multi-modal interpretability and application, such as [Causal and temporal inference in videos QA, ACL ALVR 2024](https://aclanthology.org/2024.alvr-1.12/), and [Human motion video generation](https://www.techrxiv.org/doi/full/10.36227/techrxiv.172793202.22697340)
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<div style="max-height: 300px; overflow-y: scroll; padding-right: 10px;">
+- **2024.06**: Our paper  
+  *[Causal and Temporal Inference in Visual Question Generation by Utilizing Pre-trained Models]*  
+  has been accepted by **ACL ALVR (Advances in Language and Vision Research) 2024**! 🎉
+
+- **2024.02**: Our paper  
+  *[Exploring Effective and Efficient Question-Answer Representations]*  
+  has been accepted by **COLING 2024**! ✨
+
+- **2023.12**: Our paper  
+  *[EEE-QA: Exploring Effective and Efficient Question-Answer Representations]*  
+  has been accepted by **AAAI 2024 DEPLOYABLE AI**! 🚀
+
+</div>
 
 # 📝 Publications 
 
@@ -43,16 +66,30 @@ My research interest includes neural machine translation and computer vision. I 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2023.01* IBM Shortlist for Best Project in Machine Learning Practical Course, Ranked 5/103.
+
+- *2022.06* Outstanding Graduate Award, NCEPU
+
+- *2022.05* £3000 Scholarship, University of Edinburgh, For Excellent 2+2 International Students
+
+- *2021.05* £2500 Scholarship, University of Edinburgh, For Excellent 2+2 International Students
+
+- *2020.10* Third Prize Academic Scholarship, NCEPU, Awarded to top 10% of students
+
+- *2019.10* Second Prize Academic Scholarship, NCEPU, Awarded to top 5% of students
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2022.09 – 2023.11*, **MSc in Artificial Intelligence**, University of Edinburgh  
+  Distinction Degree, ranked top ~10%
+
+- *2020.09 – 2022.05*, **Bachelor in Electronics and Electrical Engineering**, University of Edinburgh  
+  First-Class Honour Degree, ranked top ~10%
+
+- *2018.09 – 2020.06*, **Bachelor in Electrical Engineering and Its Automation**, North China Electric Power University (NCEPU)  
+  Ranked ~15%
+
 
 # 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
 
 # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *2024.04 - 2024.08*, Research Intern at [01.AI](https://www.01.ai/).
