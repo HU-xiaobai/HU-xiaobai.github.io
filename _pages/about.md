@@ -46,6 +46,31 @@ My research interests lie in the intersection of Natural Language Processing and
 </div>
 🚀 I am always open to new collaborations and engaging discussions. Feel free to reach out if you are interested in working together or just want to chat!
 
+# 📝 Publications
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL ALVR 2024</div><img src='images/video_causal.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Causal and Temporal Inference in Visual Question Generation by Utilizing Pre-trained Models](https://aclanthology.org/2024.alvr-1.12/)
+
+**Zhanghao Hu**, Frank Keller
+
+[**Project**] <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- Our study introduces a framework that leverages vision-text matching pre-trained models to guide language models in recognizing event-entity relationships within videos and generating inferential questions.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">COLING 2024</div><img src='images/eee-qa.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[EEE-QA: Exploring Effective and Efficient Question-Answer Representations](https://aclanthology.org/2024.lrec-main.490/)
+
+**Zhanghao Hu**, Yijun Yang, Junjie Xu, Yifu Qiu, Pinzhen Chen
+
+[**Project**] <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- This work challenges the existing question-answer encoding convention and explores finer representations. We experiment with different PLMs, and with and without the integration of knowledge graphs. Results prove that the memory efficacy of the proposed techniques is with little sacrifice in performance.
+</div>
+</div>
 
 # 📝 Publications -- Preprint 
 
@@ -85,34 +110,6 @@ Haiwei Xue, Xiangyang Luo, **Zhanghao Hu**, Xin Zhang, Xunzhi Xiang, Yuqin Dai, 
 - This paper addresses this gap by providing an in-depth survey of human motion video generation, encompassing over ten sub-tasks, and detailing the five key phases of the generation process: input, motion planning, motion video generation, refinement, and output. 
 </div>
 </div>
-
-# 📝 Publications
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL ALVR 2024</div><img src='images/video_causal.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Causal and Temporal Inference in Visual Question Generation by Utilizing Pre-trained Models](https://aclanthology.org/2024.alvr-1.12/)
-
-**Zhanghao Hu**, Frank Keller
-
-[**Project**] <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Our study introduces a framework that leverages vision-text matching pre-trained models to guide language models in recognizing event-entity relationships within videos and generating inferential questions.
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">COLING 2024</div><img src='images/eee-qa.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[EEE-QA: Exploring Effective and Efficient Question-Answer Representations](https://aclanthology.org/2024.lrec-main.490/)
-
-**Zhanghao Hu**, Yijun Yang, Junjie Xu, Yifu Qiu, Pinzhen Chen
-
-[**Project**] <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- This work challenges the existing question-answer encoding convention and explores finer representations. We experiment with different PLMs, and with and without the integration of knowledge graphs. Results prove that the memory efficacy of the proposed techniques with little sacrifice in performance.
-</div>
-</div>
-
-
 
 # 🎖 Honors and Awards
 - *2023.01* IBM Shortlist for Best Project in Machine Learning Practical Course, Ranked 5/103.
