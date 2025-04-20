@@ -49,7 +49,7 @@ My research interests lie in the intersection of Natural Language Processing and
 
 # 📝 Publications -- Preprint 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2024.02</div><img src='images/EmbQA.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2025.02</div><img src='images/EmbQA.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Beyond Prompting: An Efficient Embedding Framework for Open-Domain Question Answering](https://arxiv.org/abs/2503.01606)
@@ -62,7 +62,7 @@ My research interests lie in the intersection of Natural Language Processing and
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2024.02</div><img src='images/codi.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2025.02</div><img src='images/codi.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [CODI: Compressing Chain-of-Thought into Continuous Space via Self-Distillation](https://arxiv.org/abs/2502.21074)
@@ -74,9 +74,21 @@ Zhenyi Shen, Hanqi Yan, Linhai Zhang, **Zhanghao Hu**, Yali Du, Yulan He
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TechRxiv 2024.09</div><img src='images/dance_motion.pdf' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
+[Human motion video generation: A survey](https://www.techrxiv.org/doi/full/10.36227/techrxiv.172793202.22697340)
+
+Haiwei Xue, Xiangyang Luo, **Zhanghao Hu**, Xin Zhang, Xunzhi Xiang, Yuqin Dai, Jianzhuang Liu, Zhensong Zhang, Minglei Li, Jian Yang, Fei Ma, Zhiyong Wu, Changpeng Yang, Zonghong Dai, Fei Richard Yu
+
+[**Project**] <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- This paper addresses this gap by providing an in-depth survey of human motion video generation, encompassing over ten sub-tasks, and detailing the five key phases of the generation process: input, motion planning, motion video generation, refinement, and output. 
+</div>
+</div>
 
 # 📝 Publications
+
+
 
 
 
