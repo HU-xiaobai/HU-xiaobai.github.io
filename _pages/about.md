@@ -74,7 +74,7 @@ Zhenyi Shen, Hanqi Yan, Linhai Zhang, **Zhanghao Hu**, Yali Du, Yulan He
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TechRxiv 2024.09</div><img src='images/dance_motion.pdf' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TechRxiv 2024.09</div><img src='images/dance_motion.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Human motion video generation: A survey](https://www.techrxiv.org/doi/full/10.36227/techrxiv.172793202.22697340)
@@ -88,7 +88,17 @@ Haiwei Xue, Xiangyang Luo, **Zhanghao Hu**, Xin Zhang, Xunzhi Xiang, Yuqin Dai, 
 
 # 📝 Publications
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL ALVR 2024</div><img src='images/video_causal.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
+[Causal and Temporal Inference in Visual Question Generation by Utilizing Pre-trained Models](https://aclanthology.org/2024.alvr-1.12/)
+
+**Zhanghao Hu**, Frank Keller
+
+[**Project**] <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- Our study introduces a framework that leverages vision-text matching pre-trained models to guide language models in recognizing event-entity relationships within videos and generating inferential questions.
+</div>
+</div>
 
 
 
