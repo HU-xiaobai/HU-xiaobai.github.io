@@ -3,12 +3,12 @@
     "short_name": "",
     "icons": [
        {
-          "src": "/Zhanghao_hu.jpg",
+          "src": "images/Zhanghao_hu.jpg",
           "sizes": "192x192",
           "type": "image/jpg"
        },
        {
-        "src": "/Zhanghao_hu.jpg",
+        "src": "images/Zhanghao_hu.jpg",
         "sizes": "512x512",
         "type": "image/jpg"
         }
