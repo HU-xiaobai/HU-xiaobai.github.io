@@ -62,7 +62,7 @@ My research interests lie in the intersection of Natural Language Processing and
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2024.02</div><img src='images/EmbQA.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2024.02</div><img src='images/codi.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [CODI: Compressing Chain-of-Thought into Continuous Space via Self-Distillation](https://arxiv.org/abs/2502.21074)
