@@ -47,9 +47,9 @@ My research interests lie in the intersection of Natural Language Processing and
 🚀 I am always open to new collaborations and engaging discussions. Feel free to reach out if you are interested in working together or just want to chat!
 
 
-# 📝 Publications 
+# 📝 Publications -- Preprint 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/EmbQA.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2024.02</div><img src='images/EmbQA.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Beyond Prompting: An Efficient Embedding Framework for Open-Domain Question Answering](https://arxiv.org/abs/2503.01606)
@@ -62,7 +62,23 @@ My research interests lie in the intersection of Natural Language Processing and
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2024.02</div><img src='images/EmbQA.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[CODI: Compressing Chain-of-Thought into Continuous Space via Self-Distillation](https://arxiv.org/abs/2502.21074)
+
+Zhenyi Shen, Hanqi Yan, Linhai Zhang, **Zhanghao Hu**, Yali Du, Yulan He
+
+[**Project**] <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- CODI (Continuous Chain-of-Thought via Self-Distillation) is a novel framework that distils CoT into a continuous space, where a shared model acts as both teacher and student, jointly learning explicit and implicit CoT while aligning their hidden activation on the token generating the final answer. 
+</div>
+</div>
+
+
+
+# 📝 Publications
+
+
 
 # 🎖 Honors and Awards
 - *2023.01* IBM Shortlist for Best Project in Machine Learning Practical Course, Ranked 5/103.
