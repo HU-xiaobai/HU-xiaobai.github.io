@@ -100,6 +100,18 @@ Haiwei Xue, Xiangyang Luo, **Zhanghao Hu**, Xin Zhang, Xunzhi Xiang, Yuqin Dai, 
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">COLING 2024</div><img src='images/eee-qa.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[EEE-QA: Exploring Effective and Efficient Question-Answer Representations](https://aclanthology.org/2024.lrec-main.490/)
+
+**Zhanghao Hu**, Yijun Yang, Junjie Xu, Yifu Qiu, Pinzhen Chen
+
+[**Project**] <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- This work challenges the existing question-answer encoding convention and explores finer representations. We experiment with different PLMs, and with and without the integration of knowledge graphs. Results prove that the memory efficacy of the proposed techniques with little sacrifice in performance.
+</div>
+</div>
+
 
 
 # 🎖 Honors and Awards
