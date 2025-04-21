@@ -38,6 +38,7 @@ My research interests lie in the intersection of Natural Language Processing and
 <div style="max-height: 300px; overflow-y: scroll; padding-right: 10px;">
 
 <ul>
+  <li><b>2024.10</b>: I start my PhD📚 journey at King's College London, NLP group! </li>
   <li><b>2024.06</b>: Our paper <i>Causal and Temporal Inference in Visual Question Generation by Utilizing Pre-trained Models</i> has been accepted by <b>ACL ALVR 2024</b>! 🎉</li>
   <li><b>2024.02</b>: Our paper <i>Exploring Effective and Efficient Question-Answer Representations</i> has been accepted by <b>COLING 2024</b>! 🎉</li>
   <li><b>2023.12</b>: Our paper <i>EEE-QA: Exploring Effective and Efficient Question-Answer Representations</i> has been accepted by <b>AAAI 2024 DEPLOYABLE AI</b>! 🎉</li>
