@@ -66,7 +66,7 @@ My research interests lie in the intersection of Natural Language Processing and
 
 [EEE-QA: Exploring Effective and Efficient Question-Answer Representations](https://aclanthology.org/2024.lrec-main.490/)
 
-**Zhanghao Hu**, Yijun Yang, Junjie Xu, Yifu Qiu, Pinzhen Chen
+**Zhanghao Hu***, Yijun Yang*, Junjie Xu*, Yifu Qiu, Pinzhen Chen
 
 [**Project**] <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - This work challenges the existing question-answer encoding convention and explores finer representations. We experiment with different PLMs, and with and without the integration of knowledge graphs. Results prove that the memory efficacy of the proposed techniques is with little sacrifice in performance.
