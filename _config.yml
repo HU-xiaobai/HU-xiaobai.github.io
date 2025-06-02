@@ -22,13 +22,13 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Zhanghao Hu"
-  avatar           : "images/Zhanghao_hu.jpg"
+  avatar           : "images/Zhanghao_hu2.jpg"
   bio              : "Year 1 PhD @ KCL NLP Group"
   location         : "London, UK"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=trDOsRsAAAAJ"
-  email            : "k24043537@kcl.ac.uk"
+  email            : "zhanghao.hu@kcl.ac.uk"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
