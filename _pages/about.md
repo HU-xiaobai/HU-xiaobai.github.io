@@ -38,7 +38,7 @@ My research interests lie in the intersection of Natural Language Processing and
 <div style="max-height: 300px; overflow-y: scroll; padding-right: 10px;">
 
 <ul>
-  <li><b>2025.05</b>: Our paper <i>Human motion video generation: A survey</i> has been accepted by <b>TPAMI 2025</b>! 🎉</li>
+  <li><b>2025.07</b>: Our paper <i>Human motion video generation: A survey</i> has been accepted by <b>TPAMI 2025</b>! 🎉</li>
   <li><b>2025.05</b>: Our paper <i>Beyond Prompting: An Efficient Embedding Framework for Open-Domain Question Answering</i> has been accepted by <b>ACL 2025 Main</b>! 🎉</li>
   <li><b>2024.10</b>: I start my PhD📚 journey at King's College London, NLP group! </li>
   <li><b>2024.06</b>: Our paper <i>Causal and Temporal Inference in Visual Question Generation by Utilizing Pre-trained Models</i> has been accepted by <b>ACL ALVR 2024</b>! 🎉</li>
