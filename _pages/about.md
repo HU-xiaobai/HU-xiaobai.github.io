@@ -50,7 +50,7 @@ My research interests lie in the intersection of Natural Language Processing and
 </div>
 🚀 I am always open to new collaborations and engaging discussions. Feel free to reach out if you are interested in working together or just want to chat!
 
-# 📝 Text Generation & Reasoning
+# 📚 Text Generation & Retrieval/RAG
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2025 Main</div><img src='images/EmbQA.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -76,7 +76,7 @@ My research interests lie in the intersection of Natural Language Processing and
 </div>
 </div>
 
-# 📝 Latent & Efficient Reasoning
+# 🤔 Latent & Efficient Reasoning
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2025 Main</div><img src='images/codi.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -89,7 +89,7 @@ Zhenyi Shen, Hanqi Yan, Linhai Zhang, **Zhanghao Hu**, Yali Du, Yulan He
 </div>
 </div>
 
-# 📝 Multi-modal interpretability & application
+# <img width="30" height="30" alt="image" src="https://github.com/user-attachments/assets/adeff2bb-5e12-4cd6-8d3f-5549b6185215" /> Multi-modal interpretability & application
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI 2025</div><img src='images/dance_motion.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Human motion video generation: A survey](https://www.techrxiv.org/doi/full/10.36227/techrxiv.172793202.22697340)
