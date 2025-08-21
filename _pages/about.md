@@ -51,6 +51,19 @@ My research interests lie in the intersection of Natural Language Processing and
 🚀 I am always open to new collaborations and engaging discussions. Feel free to reach out if you are interested in working together or just want to chat!
 
 # 📚 Text Generation & Retrieval/RAG
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 08</div><img src='images/xcompress.pdf' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Spectrum Projection Score: Aligning Retrieved Summaries with Reader Models in Retrieval-Augmented Generation](https://arxiv.org/abs/2508.05909)
+
+**Zhanghao Hu**, Qinglin Zhu, Siya Qi, Yulan He, Hanqi Yan, Lin Gui
+
+[**Project**] <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- Proposes SPS, a supervision-free metric to assess semantic alignment between retrieved summaries and LLM representations.
+- Introduces xCompress, an inference-time controller that ranks and compresses retrievals to improve generation and clarify retrieval–generation interaction.
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2025 Main</div><img src='images/EmbQA.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
