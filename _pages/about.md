@@ -26,7 +26,7 @@ In addition to research, I interned for four months as a full-stack engineer spe
 # 🔍 Research Summary
 My research interests lie in the intersection of Natural Language Processing and Multi-modal Learning, i.e., cross-modality (Vision-language-audio Environment Understanding), text-generation (Open domain/long-form question answering), and reasoning (Embedding planning, latent embedding learning), to enhance the fundamental reliability and multi-modal ability of NLP models. Generally speaking, my goal is to enhance 1) the robust cross-modality alignment and comprehension abilities in interactive communication environments, and 2) advancing knowledge-based large language models (LLMs) and agents to refine reasoning. My long-term objective is to construct a robust AI framework harmonising natural language understanding and generation, dismantling barriers in human-machine communication.
 
-* Effectiveness and Efficiency in Question Answering implemented by large language models, such as [EEE-QA, COLING 2024](https://aclanthology.org/2024.lrec-main.490/): A gate layer framework in multi-choice question answering, and [EmbQA, ACL 2025 Main](https://arxiv.org/abs/2503.01606): A rerank-reading system with an unsupervised contrastive learning framework in the rerank and an exploratory embedding mechanism in the reading framework.
+* Effectiveness and Efficiency in Text Generation/Question Answering implemented by large language models, such as [EEE-QA, COLING 2024](https://aclanthology.org/2024.lrec-main.490/): A gate layer framework in multi-choice question answering, and [EmbQA, ACL 2025 Main](https://arxiv.org/abs/2503.01606): A rerank-reading system with an unsupervised contrastive learning framework in the rerank and an exploratory embedding mechanism in the reading framework.
 
 * Reasoning in latent space, such as [CODI](https://arxiv.org/abs/2502.21074): Train a large language model (LLM) to perform reasoning without explicitly generating Chain-of-Thought (CoT) tokens.
 
@@ -38,6 +38,7 @@ My research interests lie in the intersection of Natural Language Processing and
 <div style="max-height: 300px; overflow-y: scroll; padding-right: 10px;">
 
 <ul>
+  <li><b>2025.08</b>: Our paper <i>CODI: Compressing Chain-of-Thought into Continuous Space via Self-Distillation</i> has been accepted by <b>EMNLP 2025 Main</b>! 🎉</li>
   <li><b>2025.07</b>: Our paper <i>Human motion video generation: A survey</i> has been accepted by <b>TPAMI 2025</b>! 🎉</li>
   <li><b>2025.05</b>: Our paper <i>Beyond Prompting: An Efficient Embedding Framework for Open-Domain Question Answering</i> has been accepted by <b>ACL 2025 Main</b>! 🎉</li>
   <li><b>2024.10</b>: I start my PhD📚 journey at King's College London, NLP group! </li>
@@ -49,20 +50,7 @@ My research interests lie in the intersection of Natural Language Processing and
 </div>
 🚀 I am always open to new collaborations and engaging discussions. Feel free to reach out if you are interested in working together or just want to chat!
 
-# 📝 Publications
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI 2025</div><img src='images/dance_motion.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-[Human motion video generation: A survey](https://www.techrxiv.org/doi/full/10.36227/techrxiv.172793202.22697340)
-
-Haiwei Xue, Xiangyang Luo, **Zhanghao Hu**, Xin Zhang, Xunzhi Xiang, Yuqin Dai, Jianzhuang Liu, Zhensong Zhang, Minglei Li, Jian Yang, Fei Ma, Zhiyong Wu, Changpeng Yang, Zonghong Dai, Fei Richard Yu
-
-[**Project**] <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- This paper addresses this gap by providing an in-depth survey of human motion video generation, encompassing over ten sub-tasks, and detailing the five key phases of the generation process: input, motion planning, motion video generation, refinement, and output. 
-</div>
-</div>
-
-
-
+# 📝 Text Generation & Reasoning
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2025 Main</div><img src='images/EmbQA.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -73,18 +61,6 @@ Haiwei Xue, Xiangyang Luo, **Zhanghao Hu**, Xin Zhang, Xunzhi Xiang, Yuqin Dai, 
 [**Project**] <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - Reordering retrieved passages to highlight those most likely to contain correct answers by refining query representations via lightweight linear layers under an unsupervised contrastive learning objective.
 - Introduce an exploratory embedding that broadens the model's latent semantic space to diversify candidate generation and employs an entropy-based selection mechanism to choose the most confident answer automatically
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL ALVR 2024</div><img src='images/video_causal.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Causal and Temporal Inference in Visual Question Generation by Utilizing Pre-trained Models](https://aclanthology.org/2024.alvr-1.12/)
-
-**Zhanghao Hu**, Frank Keller
-
-[**Project**] <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Our study introduces a framework that leverages vision-text matching pre-trained models to guide language models in recognizing event-entity relationships within videos and generating inferential questions.
 </div>
 </div>
 
@@ -100,9 +76,8 @@ Haiwei Xue, Xiangyang Luo, **Zhanghao Hu**, Xin Zhang, Xunzhi Xiang, Yuqin Dai, 
 </div>
 </div>
 
-# 📝 Publications -- Preprint
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2025.02</div><img src='images/codi.png' alt="sym" width="100%"></div></div>
+# 📝 Latent & Efficient Reasoning
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2025 Main</div><img src='images/codi.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [CODI: Compressing Chain-of-Thought into Continuous Space via Self-Distillation](https://arxiv.org/abs/2502.21074)
@@ -113,6 +88,32 @@ Zhenyi Shen, Hanqi Yan, Linhai Zhang, **Zhanghao Hu**, Yali Du, Yulan He
 - CODI (Continuous Chain-of-Thought via Self-Distillation) is a novel framework that distils CoT into a continuous space, where a shared model acts as both teacher and student, jointly learning explicit and implicit CoT while aligning their hidden activation on the token generating the final answer. 
 </div>
 </div>
+
+# 📝 Multi-modal interpretability & application
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI 2025</div><img src='images/dance_motion.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[Human motion video generation: A survey](https://www.techrxiv.org/doi/full/10.36227/techrxiv.172793202.22697340)
+
+Haiwei Xue, Xiangyang Luo, **Zhanghao Hu**, Xin Zhang, Xunzhi Xiang, Yuqin Dai, Jianzhuang Liu, Zhensong Zhang, Minglei Li, Jian Yang, Fei Ma, Zhiyong Wu, Changpeng Yang, Zonghong Dai, Fei Richard Yu
+
+[**Project**] <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- This paper addresses this gap by providing an in-depth survey of human motion video generation, encompassing over ten sub-tasks, and detailing the five key phases of the generation process: input, motion planning, motion video generation, refinement, and output. 
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL ALVR 2024</div><img src='images/video_causal.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Causal and Temporal Inference in Visual Question Generation by Utilizing Pre-trained Models](https://aclanthology.org/2024.alvr-1.12/)
+
+**Zhanghao Hu**, Frank Keller
+
+[**Project**] <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- Our study introduces a framework that leverages vision-text matching pre-trained models to guide language models in recognizing event-entity relationships within videos and generating inferential questions.
+</div>
+</div>
+
+
   
 # 🎖 Honors and Awards
 - *2023.01* IBM Shortlist for Best Project in Machine Learning Practical Course, Ranked 5/103.
