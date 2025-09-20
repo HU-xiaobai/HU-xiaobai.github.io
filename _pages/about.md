@@ -71,7 +71,7 @@ My research interests lie in the intersection of Natural Language Processing and
 
 **Zhanghao Hu**, Hanqi Yan, Qinglin Zhu, Zhenyi Shen, Yulan He, Lin Gui
 
-[**Project**] <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Project**] <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> **[Code]**(https://zhanghao-acl25-embqa.github.io/ACL2025-EmbQA/)
 - Reordering retrieved passages to highlight those most likely to contain correct answers by refining query representations via lightweight linear layers under an unsupervised contrastive learning objective.
 - Introduce an exploratory embedding that broadens the model's latent semantic space to diversify candidate generation and employs an entropy-based selection mechanism to choose the most confident answer automatically
 </div>
