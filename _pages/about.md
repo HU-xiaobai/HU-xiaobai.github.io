@@ -55,7 +55,7 @@ My research interests lie in the intersection of Natural Language Processing and
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026 Oral</div><img src='images/xcompress.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Spectrum Projection Score: Aligning Retrieved Summaries with Reader Models in Retrieval-Augmented Generation](https://arxiv.org/abs/2508.05909)
+[Beyond Perplexity: Let the Reader Select Retrieval Summaries via Spectrum Projection Score](https://arxiv.org/abs/2508.05909)
 
 **Zhanghao Hu**, Qinglin Zhu, Siya Qi, Yulan He, Hanqi Yan, Lin Gui
 
