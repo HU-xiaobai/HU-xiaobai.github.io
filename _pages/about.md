@@ -52,7 +52,7 @@ My research interests lie in the intersection of Natural Language Processing and
 🚀 I am always open to new collaborations and engaging discussions. Feel free to reach out if you are interested in working together or just want to chat!
 
 # 📚 Text Generation & Retrieval/RAG
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 02.2026</div><img src='images/xMemory.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 02.2026</div><img src='images/xMemory.png' alt="sym" width="50%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Beyond RAG for Agent Memory: Retrieval by Decoupling and Aggregation](https://arxiv.org/abs/2602.02007)
