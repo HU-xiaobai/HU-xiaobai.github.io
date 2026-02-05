@@ -52,6 +52,20 @@ My research interests lie in the intersection of Natural Language Processing and
 🚀 I am always open to new collaborations and engaging discussions. Feel free to reach out if you are interested in working together or just want to chat!
 
 # 📚 Text Generation & Retrieval/RAG
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 02.2026</div><img src='images/xMemory.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Beyond RAG for Agent Memory: Retrieval by Decoupling and Aggregation](https://arxiv.org/abs/2602.02007)
+
+**Zhanghao Hu**, Qinglin Zhu, Hanqi Yan, Yulan He, Lin Gui
+
+[**Project**] <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- Standard RAG top-k is misaligned with agent memory, yielding redundant retrieval and brittle pruning in correlated dialogue streams.
+- Introduced decoupling→aggregation: semantic-component indexing with guided hierarchy building, plus structure-driven top-down retrieval with uncertainty-gated expansion.
+- Improved QA quality and token efficiency on LoCoMo/PerLTQA across multiple LLM backbones, validating component-level retrieval over top-k+pruning.
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026 Oral</div><img src='images/xcompress.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
