@@ -51,6 +51,15 @@ My research interests lie in the intersection of Natural Language Processing and
 </div>
 🚀 I am always open to new collaborations and engaging discussions. Feel free to reach out if you are interested in working together or just want to chat!
 
+# 😆 Mentee
+- **LLM Safety** 
+    - Lingyi Kong (LLM Security and Attack)
+- **Multi-modal Alignment** 
+    - Zipeng Zhu (Image Edit)
+
+# 💬 Invited Talks
+- 02/2026. <strong> Queen Mary University of London, NLP Group </strong>
+
 # 📚 Text Generation & Retrieval/RAG
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 02.2026</div><img src='images/xMemory.png' alt="sym" width="75%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -141,6 +150,13 @@ Haiwei Xue, Xiangyang Luo, **Zhanghao Hu**, Xin Zhang, Xunzhi Xiang, Yuqin Dai, 
 </div>
 </div>
 
+# Professional Service
+  - Volunteer:
+    - AAAI 2026
+  - Reviewers:
+    - NLP: EMNLP 2025, ACL 2026
+    - AI/ML: AAAI 2026, ICML 2026
+
 
   
 # 🎖 Honors and Awards
@@ -163,8 +179,6 @@ Haiwei Xue, Xiangyang Luo, **Zhanghao Hu**, Xin Zhang, Xunzhi Xiang, Yuqin Dai, 
 
 - *2018.09 – 2020.06*, **Bachelor in Electrical Engineering and Its Automation**, North China Electric Power University (NCEPU) Ranked ~15%
 
-
-# 💬 Invited Talks
 
 # 💻 Internships
 - *2024.04 - 2024.08*, Research Intern at [01.AI](https://www.01.ai/).
