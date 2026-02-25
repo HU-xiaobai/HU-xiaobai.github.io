@@ -64,11 +64,11 @@ My research interests lie in the intersection of Natural Language Processing and
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 02.2026</div><img src='images/xMemory.png' alt="sym" width="75%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Beyond RAG for Agent Memory: Retrieval by Decoupling and Aggregation](https://arxiv.org/abs/2602.02007)
+[Beyond RAG for Agent Memory: Retrieval by Decoupling and Aggregation](https://arxiv.org/abs/2602.02007) 
 
 **Zhanghao Hu**, Qinglin Zhu, Hanqi Yan, Yulan He, Lin Gui
 
-[**Project**] <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+[**Project**] <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> [**[Code](https://github.com/HU-xiaobai/xMemory)**]
 - Standard RAG top-k is misaligned with agent memory, yielding redundant retrieval and brittle pruning in correlated dialogue streams.
 - Introduced decoupling→aggregation: semantic-component indexing with guided hierarchy building, plus structure-driven top-down retrieval with uncertainty-gated expansion.
 - Improved QA quality and token efficiency on LoCoMo/PerLTQA across multiple LLM backbones, validating component-level retrieval over top-k+pruning.
