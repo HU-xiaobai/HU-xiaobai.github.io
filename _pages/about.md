@@ -38,7 +38,7 @@ My research interests lie in the intersection of Natural Language Processing and
 <div style="max-height: 300px; overflow-y: scroll; padding-right: 10px;">
 
 <ul>
-    <li>🧑‍💻Started internship at Tencent Yuanbao Qingyun Intern for Agent Memory <img src="https://www.google.com/s2/favicons?sz=64&domain_url=https://yuanbao.tencent.com" alt="Tencent Yuanbao" width="16" height="16" />! 🎉</li>
+    <li><b>2026.04</b>:🧑‍💻Started internship at Tencent Yuanbao Qingyun Intern for Agent Memory <img src="https://www.google.com/s2/favicons?sz=64&domain_url=https://yuanbao.tencent.com" alt="Tencent Yuanbao" width="16" height="16" />! 🎉</li>
     <li><b>2026.04</b>: Our paper <i>OSCR-Attack: One-Shot Character Level Attacks through Self-Optimizing Continuous Relaxation</i> has been accepted by <b>ACL 2026 findings</b>! 🎉</li>
   <li><b>2025.11</b>: Our paper <i>Spectrum Projection Score: Aligning Retrieved Summaries with Reader Models in Retrieval-Augmented Generation</i> has been accepted by <b>AAAI 2026 <span style="color:red">Oral🌟</span></b>! 🎉</li>
   <li><b>2025.08</b>: Our paper <i>CODI: Compressing Chain-of-Thought into Continuous Space via Self-Distillation</i> has been accepted by <b>EMNLP 2025 Main</b>! 🎉</li>
