@@ -21,7 +21,7 @@ redirect_from:
 
 Hi, everyone! I am currently a second-year PhD student (10.2024-) at [King's College London, NLP group](https://kclnlp.github.io/), School of Informatics. I am fortunate to be supervised by [Dr. Lin Gui](https://sites.google.com/view/lin-gui/about-me) and [Prof. Yulan He](https://sites.google.com/view/yulanhe). I finished my MSC AI at the University of Edinburgh and my BEng EEE project jointly at the University of Edinburgh and North China Electric Power University(NCEPU). I am fortunate to be supervised by [Prof. Frank Keller](https://homepages.inf.ed.ac.uk/keller/) for my MSC and [Dr. Jiabin Jia](https://eng.ed.ac.uk/about/people/dr-jiabin-jia) for my BEng.
 
-In addition to research, I interned for four months as a full-stack engineer specialising in voice cloning algorithms at [01.AI](https://www.01.ai/).
+In addition to research, I interned for four months as a full-stack engineer specialising in voice cloning algorithms at [01.AI](https://www.01.ai/). I am currently a qingyun intern at Tencent YuanBao <img src="https://www.google.com/s2/favicons?sz=64&domain_url=https://yuanbao.tencent.com" alt="Tencent Yuanbao" width="16" height="16" /> for Agent Memory, welcome any chat with me!
 
 # 🔍 Research Summary
 My research interests lie in the intersection of Natural Language Processing and multi-modal understanding, with a focus on aligning retrieval, reasoning, and model internal representations for reliable and efficient language models. Generally speaking, my goal is 1) **Advancing retrieval-augmented and embedding-based frameworks to robustly connect retrieved evidence with LLMs**, improving answer faithfulness and controllability in long-context generation. 2) **Developing the robust cross-modality alignment and comprehension abilities in real-world**, interactive communication environments. My long-term vision is to build principled AI systems that unify retrieval, reasoning, and multi-modal understanding into trustworthy, efficient, and human-aligned communicative agents. Specifically, my latest research focuses on:
@@ -38,6 +38,8 @@ My research interests lie in the intersection of Natural Language Processing and
 <div style="max-height: 300px; overflow-y: scroll; padding-right: 10px;">
 
 <ul>
+    <li>🧑‍💻Started internship at Tencent Yuanbao Qingyun Intern for Agent Memory <img src="https://www.google.com/s2/favicons?sz=64&domain_url=https://yuanbao.tencent.com" alt="Tencent Yuanbao" width="16" height="16" />! 🎉</li>
+    <li><b>2026.04</b>: Our paper <i>OSCR-Attack: One-Shot Character Level Attacks through Self-Optimizing Continuous Relaxation</i> has been accepted by <b>ACL 2026 findings</b>! 🎉</li>
   <li><b>2025.11</b>: Our paper <i>Spectrum Projection Score: Aligning Retrieved Summaries with Reader Models in Retrieval-Augmented Generation</i> has been accepted by <b>AAAI 2026 <span style="color:red">Oral🌟</span></b>! 🎉</li>
   <li><b>2025.08</b>: Our paper <i>CODI: Compressing Chain-of-Thought into Continuous Space via Self-Distillation</i> has been accepted by <b>EMNLP 2025 Main</b>! 🎉</li>
   <li><b>2025.07</b>: Our paper <i>Human motion video generation: A survey</i> has been accepted by <b>TPAMI 2025</b>! 🎉</li>
