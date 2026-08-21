@@ -74,7 +74,7 @@ generation [Causal and Temporal Inference in Visual Question Generation, ACL ALV
 
 **Zhanghao Hu**, Qinglin Zhu, Hanqi Yan, Yulan He, Lin Gui
 
-[**Project**] <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> [**[Code](https://github.com/HU-xiaobai/xMemory)**]
+[**[Project](https://zhanghao-xmemory.github.io/Academic-project-page-template/)**] [**[Code](https://github.com/HU-xiaobai/xMemory)**] [**[DAIR.AI](https://x.com/dair_ai/status/2018765444702982395)**] [**[Alan Turing Institute](https://www.linkedin.com/posts/jason-mcewen-57300029_artificialintelligence-machinelearning-agenticai-activity-7448667198040141824-jL6S/.)**][**[Maxim AI](https://www.getmaxim.ai/blog/xmemory-why-top-k-retrieval-breaks-for-agent-memory/)**] [**[emergentmind](https://www.linkedin.com/posts/jason-mcewen-57300029_artificialintelligence-machinelearning-agenticai-activity-7448667198040141824-jL6S/.)**]
 - Standard RAG top-k is misaligned with agent memory, yielding redundant retrieval and brittle pruning in correlated dialogue streams.
 - Introduced decoupling→aggregation: semantic-component indexing with guided hierarchy building, plus structure-driven top-down retrieval with uncertainty-gated expansion.
 - Improved QA quality and token efficiency on LoCoMo/PerLTQA across multiple LLM backbones, validating component-level retrieval over top-k+pruning.
