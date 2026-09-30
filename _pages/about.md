@@ -91,22 +91,37 @@ Beyond these directions, my broader research experience includes **efficient LLM
 
 # 📚 Selected Publications
 
-<p style="font-size: 0.92em; margin-bottom: 14px;">
+<p class="pub-note">
 † Equal contribution. * Corresponding author.
-Representative and first-author works are highlighted.
+Selected and representative works are shown below.
 For a complete publication list, please visit my
 <a href="https://scholar.google.com/citations?user=trDOsRsAAAAJ" target="_blank">
 Google Scholar
 </a>.
 </p>
 
-
 <div class="pub-filters">
-  <button class="pub-filter active" data-filter="all">All</button>
-  <button class="pub-filter" data-filter="memory">Memory & Retrieval</button>
-  <button class="pub-filter" data-filter="agent">Agents & Evaluation</button>
-  <button class="pub-filter" data-filter="reasoning">Reasoning & Reliability</button>
-  <button class="pub-filter" data-filter="multimodal">Multimodal</button>
+
+  <button class="pub-filter active" data-filter="all">
+    All <span class="pub-count" data-count="all">0</span>
+  </button>
+
+  <button class="pub-filter" data-filter="memory">
+    Memory & Retrieval <span class="pub-count" data-count="memory">0</span>
+  </button>
+
+  <button class="pub-filter" data-filter="agent">
+    Agents & Evaluation <span class="pub-count" data-count="agent">0</span>
+  </button>
+
+  <button class="pub-filter" data-filter="reasoning">
+    Reasoning & Reliability <span class="pub-count" data-count="reasoning">0</span>
+  </button>
+
+  <button class="pub-filter" data-filter="multimodal">
+    Multimodal <span class="pub-count" data-count="multimodal">0</span>
+  </button>
+
 </div>
 
 
@@ -117,14 +132,16 @@ Google Scholar
 <div class="paper-box pub-item leading-paper"
      data-category="memory agent">
 
-<div class='paper-box-image'>
+<div class="paper-box-image">
 <div>
 <div class="badge">ICLR 2027 Submission</div>
-<img src='images/groupassistbench.png' alt="GroupAssistBench" width="100%">
+<img src="images/groupassistbench.png"
+     alt="GroupAssistBench"
+     width="100%">
 </div>
 </div>
 
-<div class='paper-box-text' markdown="1">
+<div class="paper-box-text" markdown="1">
 
 [**One Assistant, Many Memories: Benchmarking Real-World Group Assistance When Recall Is Not Enough**](https://openreview.net/forum?id=cZtUReT2nl)
 
@@ -145,14 +162,16 @@ A real-world group-memory benchmark showing that successful recall does not nece
 <div class="paper-box pub-item leading-paper"
      data-category="memory agent">
 
-<div class='paper-box-image'>
+<div class="paper-box-image">
 <div>
 <div class="badge">NeurIPS 2026</div>
-<img src='images/xMemory.png' alt="xMemory" width="75%">
+<img src="images/xMemory.png"
+     alt="xMemory"
+     width="80%">
 </div>
 </div>
 
-<div class='paper-box-text' markdown="1">
+<div class="paper-box-text" markdown="1">
 
 [**Beyond RAG for Agent Memory: Retrieval by Decoupling and Aggregation**](https://arxiv.org/abs/2602.02007)
 
@@ -166,7 +185,7 @@ A real-world group-memory benchmark showing that successful recall does not nece
 A hierarchical agent-memory framework that decouples correlated interactions into semantic components and aggregates them for structure-aware retrieval beyond conventional top-k RAG.
 
 <span class="featured-by">
-Featured by:
+Featured by
 <a href="https://venturebeat.com/orchestration/how-xmemory-cuts-token-costs-and-context-bloat-in-ai-agents">VentureBeat</a> ·
 <a href="https://x.com/dair_ai/status/2018765444702982395">DAIR.AI</a> ·
 <a href="https://www.getmaxim.ai/blog/xmemory-why-top-k-retrieval-breaks-for-agent-memory/">Maxim AI</a>
@@ -181,22 +200,24 @@ Featured by:
 <!-- ========================================================= -->
 
 <div class="paper-box pub-item leading-paper"
-     data-category="memory reasoning">
+     data-category="memory">
 
-<div class='paper-box-image'>
+<div class="paper-box-image">
 <div>
 <div class="badge">AAAI 2026 Oral</div>
-<img src='images/xcompress.png' alt="SPS" width="100%">
+<img src="images/xcompress.png"
+     alt="SPS"
+     width="100%">
 </div>
 </div>
 
-<div class='paper-box-text' markdown="1">
+<div class="paper-box-text" markdown="1">
 
 [**Beyond Perplexity: Let the Reader Select Retrieval Summaries via Spectrum Projection Score**](https://arxiv.org/abs/2508.05909)
 
 **Zhanghao Hu**, Qinglin Zhu, Siya Qi, Yulan He, Hanqi Yan, Lin Gui
 
-<span style="color:red">Oral 🌟</span> /
+<span class="paper-highlight">Oral 🌟</span> /
 [**Project**](https://zhanghao-aaai2026-sps.github.io/AAAI2026-SPS/) /
 [**Paper**](https://arxiv.org/abs/2508.05909)
 
@@ -213,18 +234,20 @@ A reader-aware metric and inference-time retrieval controller for selecting summ
 <div class="paper-box pub-item leading-paper"
      data-category="agent">
 
-<div class='paper-box-image'>
+<div class="paper-box-image">
 <div>
 <div class="badge">ICLR 2027 Submission</div>
-<img src='images/comateeval.png' alt="CoMateEval" width="100%">
+<img src="images/comateeval.png"
+     alt="CoMateEval"
+     width="100%">
 </div>
 </div>
 
-<div class='paper-box-text' markdown="1">
+<div class="paper-box-text" markdown="1">
 
 [**CoMateEval: Benchmarking LLMs Across Team Roles in Dynamic Multi-Party Collaboration**](https://openreview.net/forum?id=QcCZA9gmq6)
 
-Xianjie Wu, **Zhanghao Hu**, Tianle Gu, Wuzhenghong Wen, Xiaohang Xu, Yuhui Wang, et al.
+Xianjie Wu, **Zhanghao Hu**, Tianle Gu, Wuzhenghong Wen, Xiaohang Xu, Yuhui Wang, Yujia Chen, Naifu Liang, et al.
 
 [**Paper**](https://openreview.net/forum?id=QcCZA9gmq6)
 
@@ -239,16 +262,18 @@ A benchmark for evaluating how well LLMs fulfil diverse team responsibilities ac
 <!-- ========================================================= -->
 
 <div class="paper-box pub-item leading-paper"
-     data-category="memory reasoning">
+     data-category="memory">
 
-<div class='paper-box-image'>
+<div class="paper-box-image">
 <div>
 <div class="badge">ACL 2025 Main</div>
-<img src='images/EmbQA.jpg' alt="EmbQA" width="100%">
+<img src="images/EmbQA.jpg"
+     alt="EmbQA"
+     width="100%">
 </div>
 </div>
 
-<div class='paper-box-text' markdown="1">
+<div class="paper-box-text" markdown="1">
 
 [**Beyond Prompting: An Efficient Embedding Framework for Open-Domain Question Answering**](https://arxiv.org/abs/2503.01606)
 
@@ -270,14 +295,16 @@ An embedding-level framework for refining retrieval and diversifying answer gene
 <div class="paper-box pub-item leading-paper"
      data-category="memory">
 
-<div class='paper-box-image'>
+<div class="paper-box-image">
 <div>
 <div class="badge">LREC-COLING 2024</div>
-<img src='images/eee-qa.png' alt="EEE-QA" width="100%">
+<img src="images/eee-qa.png"
+     alt="EEE-QA"
+     width="100%">
 </div>
 </div>
 
-<div class='paper-box-text' markdown="1">
+<div class="paper-box-text" markdown="1">
 
 [**EEE-QA: Exploring Effective and Efficient Question-Answer Representations**](https://aclanthology.org/2024.lrec-main.490/)
 
@@ -293,20 +320,21 @@ Studies effective and memory-efficient question-answer representations while mai
 
 <!-- ========================================================= -->
 <!-- CODI -->
-<!-- hidden by default -->
 <!-- ========================================================= -->
 
 <div class="paper-box pub-item extra-pub"
      data-category="reasoning">
 
-<div class='paper-box-image'>
+<div class="paper-box-image">
 <div>
 <div class="badge">EMNLP 2025 Main</div>
-<img src='images/codi.png' alt="CODI" width="100%">
+<img src="images/codi.png"
+     alt="CODI"
+     width="100%">
 </div>
 </div>
 
-<div class='paper-box-text' markdown="1">
+<div class="paper-box-text" markdown="1">
 
 [**CODI: Compressing Chain-of-Thought into Continuous Space via Self-Distillation**](https://arxiv.org/abs/2502.21074)
 
@@ -321,21 +349,82 @@ Compresses explicit chain-of-thought reasoning into continuous latent representa
 
 
 <!-- ========================================================= -->
-<!-- Human Motion Generation -->
-<!-- hidden by default -->
+<!-- OSCR-Attack -->
+<!-- ========================================================= -->
+
+<div class="paper-box pub-item extra-pub"
+     data-category="reasoning">
+
+<div class="paper-box-image">
+<div>
+<div class="badge">ACL 2026 Findings</div>
+<img src="images/oscr.png"
+     alt="OSCR-Attack"
+     width="100%">
+</div>
+</div>
+
+<div class="paper-box-text" markdown="1">
+
+[**OSCR-Attack: One-Shot Character Level Attacks through Self-Optimizing Continuous Relaxation**](https://aclanthology.org/2026.findings-acl.1235/)
+
+Lingyi Kong, Zhuo Liu, **Zhanghao Hu**, Qilong Qiu, Yutao Yang, Jingjing Xue, Zheng Wang, Lin Gui, Feiping Nie
+
+[**Paper**](https://aclanthology.org/2026.findings-acl.1235/)
+
+An efficient character-level adversarial attack that transforms discrete perturbation choices into continuous optimisation for one-shot attacks on LLMs.
+
+</div>
+</div>
+
+
+<!-- ========================================================= -->
+<!-- ICML 2026 Hallucination -->
+<!-- ========================================================= -->
+
+<div class="paper-box pub-item extra-pub"
+     data-category="reasoning">
+
+<div class="paper-box-image">
+<div>
+<div class="badge">ICML 2026</div>
+<img src="images/hallucination.png"
+     alt="Contextual Hallucination Detection"
+     width="100%">
+</div>
+</div>
+
+<div class="paper-box-text" markdown="1">
+
+[**Detecting Contextual Hallucinations in Large Language Models with Frequency-Aware Attention**](https://proceedings.mlr.press/v306/qi26d.html)
+
+Siya Qi, Yudong Chen, Runcong Zhao, Qinglin Zhu, **Zhanghao Hu**, Wei Liu, Yulan He, Zheng Yuan, Lin Gui
+
+[**Paper**](https://proceedings.mlr.press/v306/qi26d.html)
+
+Detects contextual hallucinations through frequency-aware attention features that capture fragmented and unstable grounding during generation.
+
+</div>
+</div>
+
+
+<!-- ========================================================= -->
+<!-- Human Motion Video Generation -->
 <!-- ========================================================= -->
 
 <div class="paper-box pub-item extra-pub"
      data-category="multimodal">
 
-<div class='paper-box-image'>
+<div class="paper-box-image">
 <div>
 <div class="badge">TPAMI 2025</div>
-<img src='images/dance_motion.png' alt="Human Motion Generation" width="100%">
+<img src="images/dance_motion.png"
+     alt="Human Motion Video Generation"
+     width="100%">
 </div>
 </div>
 
-<div class='paper-box-text' markdown="1">
+<div class="paper-box-text" markdown="1">
 
 [**Human Motion Video Generation: A Survey**](https://www.techrxiv.org/doi/full/10.36227/techrxiv.172793202.22697340)
 
@@ -343,28 +432,29 @@ Haiwei Xue, Xiangyang Luo, **Zhanghao Hu**, Xin Zhang, Xunzhi Xiang, Yuqin Dai, 
 
 [**Paper**](https://www.techrxiv.org/doi/full/10.36227/techrxiv.172793202.22697340)
 
-A comprehensive survey and taxonomy of human-motion video generation across the full generation pipeline and major task settings.
+A comprehensive taxonomy and survey of human-motion video generation covering the full generation pipeline and major task settings.
 
 </div>
 </div>
 
 
 <!-- ========================================================= -->
-<!-- VQG -->
-<!-- hidden by default -->
+<!-- Visual Question Generation -->
 <!-- ========================================================= -->
 
 <div class="paper-box pub-item extra-pub"
      data-category="multimodal">
 
-<div class='paper-box-image'>
+<div class="paper-box-image">
 <div>
 <div class="badge">ACL ALVR 2024</div>
-<img src='images/video_causal.png' alt="Visual Question Generation" width="100%">
+<img src="images/video_causal.png"
+     alt="Visual Question Generation"
+     width="100%">
 </div>
 </div>
 
-<div class='paper-box-text' markdown="1">
+<div class="paper-box-text" markdown="1">
 
 [**Causal and Temporal Inference in Visual Question Generation by Utilizing Pre-trained Models**](https://aclanthology.org/2024.alvr-1.12/)
 
@@ -383,7 +473,6 @@ Uses pretrained vision-language representations to generate questions requiring 
     Show more publications
   </button>
 </div>
-
 
 # 😆 Mentee
 - **LLM Safety** 
@@ -428,82 +517,311 @@ Uses pretrained vision-language representations to generate questions requiring 
 # 💻 Internships
 - *2024.04 - 2024.08*, Research Intern at [01.AI](https://www.01.ai/).
 
+.extra-pub {
+  display: none;
+}
 <style>
 
-/* =========================
-   Publication Filters
-   ========================= */
+/* ==========================================
+   Publication intro
+   ========================================== */
+
+.pub-note {
+  margin-top: -5px;
+  margin-bottom: 18px;
+  font-size: 0.90em;
+  color: #666;
+}
+
+
+/* ==========================================
+   Filter bar
+   ========================================== */
 
 .pub-filters {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin: 14px 0 24px 0;
+  align-items: center;
+
+  margin: 12px 0 26px 0;
 }
 
-.pub-filter,
-.show-more-pubs {
-  border: 1px solid #d0d7de;
-  background: #ffffff;
-  color: #444;
+.pub-filter {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+
+  padding: 6px 12px;
+
+  border: 1px solid #dfe3e8;
   border-radius: 18px;
-  padding: 5px 13px;
-  font-size: 0.88em;
+
+  background: #f6f8fa;
+  color: #444;
+
+  font-family: inherit;
+  font-size: 0.86em;
+  font-weight: 500;
+
   cursor: pointer;
-  transition: all 0.2s ease;
+
+  transition:
+    background 0.18s ease,
+    border-color 0.18s ease,
+    color 0.18s ease,
+    transform 0.18s ease,
+    box-shadow 0.18s ease;
 }
 
-.pub-filter:hover,
-.show-more-pubs:hover {
-  background: #f3f4f6;
+.pub-filter:hover {
+  background: #fff;
+  border-color: #b8c0c8;
+
+  transform: translateY(-1px);
+
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.06);
 }
 
 .pub-filter.active {
   background: #24292f;
-  color: #ffffff;
   border-color: #24292f;
+  color: #fff;
+
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.12);
 }
 
 
-/* =========================
-   Publication Cards
-   ========================= */
+/* ==========================================
+   Count bubbles
+   ========================================== */
 
-.leading-paper {
-  border-left: 3px solid #888;
+.pub-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-width: 19px;
+  height: 19px;
+
+  padding: 0 5px;
+
+  border-radius: 10px;
+
+  background: rgba(0, 0, 0, 0.08);
+
+  font-size: 0.76em;
+  font-weight: 600;
+  line-height: 1;
 }
 
-/* hide non-core papers on the default All view */
-.extra-pub {
-  display: none;
+.pub-filter.active .pub-count {
+  background: rgba(255, 255, 255, 0.20);
+  color: #fff;
+}
+
+
+/* ==========================================
+   Publication cards
+   ========================================== */
+
+.paper-box.pub-item {
+  display: flex;
+
+  position: relative;
+
+  margin: 0 0 18px 0;
+  padding: 17px 18px;
+
+  border: 1px solid #e7e9ec;
+  border-radius: 10px;
+
+  background: #fff;
+
+  box-shadow: none;
+
+  transition:
+    transform 0.18s ease,
+    border-color 0.18s ease,
+    box-shadow 0.18s ease;
+}
+
+.paper-box.pub-item:hover {
+  transform: translateY(-2px);
+
+  border-color: #d1d5da;
+
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.055);
+}
+
+
+/* representative works */
+
+.paper-box.leading-paper {
+  border-left: 3px solid #777f89;
+}
+
+
+/* ==========================================
+   Image
+   ========================================== */
+
+.paper-box-image {
+  flex: 0 0 180px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-right: 20px;
+}
+
+.paper-box-image > div {
+  width: 100%;
+  text-align: center;
+}
+
+.paper-box-image img {
+  max-width: 100%;
+  max-height: 125px;
+
+  object-fit: contain;
+
+  border-radius: 5px;
+}
+
+.paper-box-image .badge {
+  display: inline-block;
+
+  margin-bottom: 7px;
+}
+
+
+/* ==========================================
+   Text
+   ========================================== */
+
+.paper-box-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.paper-box-text > p:first-child {
+  margin-top: 0;
+}
+
+.paper-box-text p {
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.paper-highlight {
+  color: #d73a49;
+  font-weight: 600;
 }
 
 .featured-by {
   display: block;
-  margin-top: 6px;
-  font-size: 0.83em;
-  color: #666;
+
+  margin-top: 7px;
+
+  color: #777;
+
+  font-size: 0.82em;
 }
+
+
+/* ==========================================
+   Show more
+   ========================================== */
 
 .show-more-container {
-  text-align: center;
-  margin: 15px 0 28px 0;
+  display: flex;
+  justify-content: center;
+
+  margin: 10px 0 30px 0;
+}
+
+.show-more-pubs {
+  padding: 7px 17px;
+
+  border: 1px solid #d0d7de;
+  border-radius: 18px;
+
+  background: #fff;
+  color: #444;
+
+  font-family: inherit;
+  font-size: 0.86em;
+
+  cursor: pointer;
+
+  transition:
+    background 0.18s ease,
+    box-shadow 0.18s ease;
+}
+
+.show-more-pubs:hover {
+  background: #f6f8fa;
+
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.06);
 }
 
 
-/* =========================
-   Mobile
-   ========================= */
+/* ==========================================
+   Fade animation
+   ========================================== */
 
-@media (max-width: 600px) {
+@keyframes pubFadeIn {
+
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+}
+
+.pub-visible {
+  animation: pubFadeIn 0.22s ease;
+}
+
+
+/* ==========================================
+   Mobile
+   ========================================== */
+
+@media (max-width: 700px) {
 
   .pub-filters {
     gap: 6px;
   }
 
   .pub-filter {
-    padding: 4px 9px;
-    font-size: 0.80em;
+    padding: 5px 9px;
+    font-size: 0.78em;
+  }
+
+  .paper-box.pub-item {
+    flex-direction: column;
+    padding: 13px;
+  }
+
+  .paper-box-image {
+    flex: none;
+
+    width: 100%;
+
+    margin-right: 0;
+    margin-bottom: 13px;
+  }
+
+  .paper-box-image img {
+    max-height: 160px;
   }
 
 }
@@ -514,62 +832,167 @@ Uses pretrained vision-language representations to generate questions requiring 
 
 document.addEventListener("DOMContentLoaded", function () {
 
-  const filters = document.querySelectorAll(".pub-filter");
-  const papers = document.querySelectorAll(".pub-item");
-  const showMoreButton = document.getElementById("show-more-pubs");
+  const filters =
+    document.querySelectorAll(".pub-filter");
 
-  let expanded = false;
+  const papers =
+    document.querySelectorAll(".pub-item");
+
+  const showMoreButton =
+    document.getElementById("show-more-pubs");
+
+
   let currentFilter = "all";
+  let expanded = false;
+
+
+  /* ========================================
+     Count publications automatically
+     ======================================== */
+
+  const counts = {
+    all: papers.length,
+    memory: 0,
+    agent: 0,
+    reasoning: 0,
+    multimodal: 0
+  };
+
+
+  papers.forEach((paper) => {
+
+    const categories =
+      (paper.dataset.category || "")
+        .split(/\s+/)
+        .filter(Boolean);
+
+
+    categories.forEach((category) => {
+
+      if (
+        Object.prototype.hasOwnProperty.call(
+          counts,
+          category
+        )
+      ) {
+
+        counts[category]++;
+
+      }
+
+    });
+
+  });
+
+
+  Object.entries(counts).forEach(
+    ([category, count]) => {
+
+      const element =
+        document.querySelector(
+          '.pub-count[data-count="' +
+          category +
+          '"]'
+        );
+
+      if (element) {
+        element.textContent = count;
+      }
+
+    }
+  );
+
+
+  /* ========================================
+     Main filtering function
+     ======================================== */
 
   function updatePublications() {
 
     papers.forEach((paper) => {
 
-      const categories = paper.dataset.category.split(" ");
+      const categories =
+        (paper.dataset.category || "")
+          .split(/\s+/)
+          .filter(Boolean);
 
-      const matchesFilter =
+
+      const matches =
         currentFilter === "all" ||
         categories.includes(currentFilter);
+
 
       const isExtra =
         paper.classList.contains("extra-pub");
 
-      if (!matchesFilter) {
+
+      let shouldShow = false;
+
+
+      if (currentFilter === "all") {
+
+        shouldShow =
+          matches &&
+          (!isExtra || expanded);
+
+      }
+
+      else {
+
+        /*
+         * When a specific category is selected,
+         * ALWAYS show all matching papers,
+         * including extra-pub.
+         */
+
+        shouldShow = matches;
+
+      }
+
+
+      if (shouldShow) {
+
+        paper.style.display = "flex";
+
+        paper.classList.remove("pub-visible");
+
+        void paper.offsetWidth;
+
+        paper.classList.add("pub-visible");
+
+      }
+
+      else {
 
         paper.style.display = "none";
-
-      } else if (
-        currentFilter === "all" &&
-        isExtra &&
-        !expanded
-      ) {
-
-        paper.style.display = "none";
-
-      } else {
-
-        paper.style.display = "";
 
       }
 
     });
 
 
-    /* Show-more button only appears in "All" */
+    /* ========================================
+       Show more button
+       ======================================== */
+
     if (showMoreButton) {
 
       if (currentFilter === "all") {
 
-        showMoreButton.style.display = "inline-block";
+        showMoreButton.style.display =
+          "inline-flex";
 
         showMoreButton.textContent =
           expanded
             ? "Show fewer publications"
             : "Show more publications";
 
-      } else {
+      }
 
-        showMoreButton.style.display = "none";
+      else {
+
+        showMoreButton.style.display =
+          "none";
 
       }
 
@@ -578,37 +1001,57 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
 
+  /* ========================================
+     Category buttons
+     ======================================== */
+
   filters.forEach((button) => {
 
-    button.addEventListener("click", function () {
+    button.addEventListener(
+      "click",
+      function () {
 
-      filters.forEach((b) =>
-        b.classList.remove("active")
-      );
+        filters.forEach((filter) => {
+          filter.classList.remove("active");
+        });
 
-      this.classList.add("active");
 
-      currentFilter = this.dataset.filter;
+        this.classList.add("active");
 
-      updatePublications();
 
-    });
+        currentFilter =
+          this.dataset.filter;
+
+
+        updatePublications();
+
+      }
+    );
 
   });
 
 
+  /* ========================================
+     Show more
+     ======================================== */
+
   if (showMoreButton) {
 
-    showMoreButton.addEventListener("click", function () {
+    showMoreButton.addEventListener(
+      "click",
+      function () {
 
-      expanded = !expanded;
+        expanded = !expanded;
 
-      updatePublications();
+        updatePublications();
 
-    });
+      }
+    );
 
   }
 
+
+  /* initial rendering */
 
   updatePublications();
 
