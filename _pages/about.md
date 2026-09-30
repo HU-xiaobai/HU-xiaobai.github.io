@@ -185,10 +185,28 @@ A real-world group-memory benchmark showing that successful recall does not nece
 A hierarchical agent-memory framework that decouples correlated interactions into semantic components and aggregates them for structure-aware retrieval beyond conventional top-k RAG.
 
 <span class="featured-by">
-Featured by
-<a href="https://venturebeat.com/orchestration/how-xmemory-cuts-token-costs-and-context-bloat-in-ai-agents">VentureBeat</a> ·
-<a href="https://x.com/dair_ai/status/2018765444702982395">DAIR.AI</a> ·
-<a href="https://www.getmaxim.ai/blog/xmemory-why-top-k-retrieval-breaks-for-agent-memory/">Maxim AI</a>
+<span style="color:red;">Recommendation:</span>
+
+<a href="https://www.linkedin.com/posts/jason-mcewen-57300029_artificialintelligence-machinelearning-agenticai-activity-7448667198040141824-jL6S/">
+<strong>Alan Turing Institute</strong>
+</a> ·
+
+<a href="https://venturebeat.com/orchestration/how-xmemory-cuts-token-costs-and-context-bloat-in-ai-agents">
+<strong>VentureBeat</strong>
+</a> ·
+
+<a href="https://x.com/dair_ai/status/2018765444702982395">
+<strong>DAIR.AI</strong>
+</a> ·
+
+<a href="https://www.getmaxim.ai/blog/xmemory-why-top-k-retrieval-breaks-for-agent-memory/">
+<strong>Maxim AI</strong>
+</a> ·
+
+<a href="https://www.linkedin.com/posts/jason-mcewen-57300029_artificialintelligence-machinelearning-agenticai-activity-7448667198040141824-jL6S/">
+<strong>EmergentMind</strong>
+</a>
+
 </span>
 
 </div>
@@ -217,7 +235,10 @@ Featured by
 
 **Zhanghao Hu**, Qinglin Zhu, Siya Qi, Yulan He, Hanqi Yan, Lin Gui
 
-<span class="paper-highlight">Oral 🌟</span> /
+<span class="paper-highlight">
+Oral 🌟 around 4% (900 / 23,680)
+</span>
+/
 [**Project**](https://zhanghao-aaai2026-sps.github.io/AAAI2026-SPS/) /
 [**Paper**](https://arxiv.org/abs/2508.05909)
 
@@ -627,11 +648,12 @@ Uses pretrained vision-language representations to generate questions requiring 
 
 .paper-box.pub-item {
   display: flex;
+  align-items: flex-start;
 
   position: relative;
 
-  margin: 0 0 18px 0;
-  padding: 17px 18px;
+  margin: 0 0 22px 0;
+  padding: 20px;
 
   border: 1px solid #e7e9ec;
   border-radius: 10px;
@@ -644,6 +666,11 @@ Uses pretrained vision-language representations to generate questions requiring 
     transform 0.18s ease,
     border-color 0.18s ease,
     box-shadow 0.18s ease;
+}
+
+.paper-box-text {
+  flex: 1;
+  min-width: 0;
 }
 
 .paper-box.pub-item:hover {
@@ -667,13 +694,14 @@ Uses pretrained vision-language representations to generate questions requiring 
    ========================================== */
 
 .paper-box-image {
-  flex: 0 0 180px;
+  flex: 0 0 36%;
+  max-width: 300px;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
-  margin-right: 20px;
+  margin-right: 24px;
 }
 
 .paper-box-image > div {
@@ -682,20 +710,20 @@ Uses pretrained vision-language representations to generate questions requiring 
 }
 
 .paper-box-image img {
+  width: 100%;
   max-width: 100%;
-  max-height: 125px;
+  height: auto;
 
   object-fit: contain;
 
-  border-radius: 5px;
+  border-radius: 6px;
 }
 
 .paper-box-image .badge {
   display: inline-block;
 
-  margin-bottom: 7px;
+  margin-bottom: 8px;
 }
-
 
 /* ==========================================
    Text
@@ -722,14 +750,11 @@ Uses pretrained vision-language representations to generate questions requiring 
 
 .featured-by {
   display: block;
-
-  margin-top: 7px;
-
-  color: #777;
-
-  font-size: 0.82em;
+  margin-top: 9px;
+  color: #666;
+  font-size: 0.88em;
+  line-height: 1.6;
 }
-
 
 /* ==========================================
    Show more
@@ -813,19 +838,21 @@ Uses pretrained vision-language representations to generate questions requiring 
 
   .paper-box-image {
     flex: none;
-
     width: 100%;
+    max-width: 100%;
 
     margin-right: 0;
-    margin-bottom: 13px;
+    margin-bottom: 15px;
   }
 
   .paper-box-image img {
-    max-height: 160px;
+    width: 100%;
+    height: auto;
+    max-height: none;
   }
 
 }
-
+  
 </style>
 
 <script>
