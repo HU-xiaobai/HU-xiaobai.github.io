@@ -32,27 +32,65 @@ jobs:
 
 
 
-      - name: Update Google Scholar citations
-        env:
-          GOOGLE_SCHOLAR_ID: trDOsRsAAAAJ
-        run: |
-          mkdir -p assets
 
-          if timeout 120s python -u google_scholar_crawler/main.py; then
-            if [ -f results/gs_data_shieldsio.json ]; then
-              cp results/gs_data_shieldsio.json assets/gs_data_shieldsio.json
-              echo "Google Scholar data updated"
-            else
-              echo "::warning::Google Scholar JSON not generated"
-            fi
-          else
-            exit_code=$?
-            if [ "$exit_code" -eq 124 ]; then
-              echo "::warning::Google Scholar timed out after 120 seconds"
-            else
-              echo "::warning::Google Scholar failed with exit code $exit_code"
-            fi
-          fi
+      - name: Update Google Scholar citations
+        continue-on-error: true
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+        run: |
+          python - <<'PY'
+          import os
+          import json
+          import urllib.request
+          import urllib.parse
+          from pathlib import Path
+
+          api_key = os.environ.get("SERPAPI_KEY")
+          if not api_key:
+              raise SystemExit("SERPAPI_KEY is missing!")
+
+          params = {
+              "engine": "google_scholar_author",
+              "author_id": "trDOsRsAAAAJ",
+              "api_key": api_key
+          }
+
+          url = (
+              "https://serpapi.com/search.json?"
+              + urllib.parse.urlencode(params)
+          )
+
+          print("Fetching Google Scholar citations...")
+
+          with urllib.request.urlopen(url, timeout=45) as response:
+              data = json.load(response)
+
+          if "error" in data:
+              raise RuntimeError(data["error"])
+
+          citations = data["cited_by"]["table"][0]["citations"]["all"]
+          citations = int(citations)
+
+          if citations < 0:
+              raise ValueError("Invalid citation count")
+
+          badge = {
+              "schemaVersion": 1,
+              "label": "citations",
+              "message": str(citations),
+              "color": "9cf"
+          }
+
+          output = Path("assets/gs_data_shieldsio.json")
+          output.parent.mkdir(parents=True, exist_ok=True)
+          output.write_text(
+              json.dumps(badge, indent=2),
+              encoding="utf-8"
+          )
+
+          print(f"Google Scholar citations: {citations}")
+          print("Citation badge updated successfully!")
+          PY
 
 
       - name: Update GitHub total stars
