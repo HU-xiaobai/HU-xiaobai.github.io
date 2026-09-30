@@ -185,28 +185,12 @@ A real-world group-memory benchmark showing that successful recall does not nece
 A hierarchical agent-memory framework that decouples correlated interactions into semantic components and aggregates them for structure-aware retrieval beyond conventional top-k RAG.
 
 <span class="featured-by">
-<span style="color:red;">Recommendation:</span>
-
-<a href="https://www.linkedin.com/posts/jason-mcewen-57300029_artificialintelligence-machinelearning-agenticai-activity-7448667198040141824-jL6S/">
-<strong>Alan Turing Institute</strong>
-</a> ·
-
-<a href="https://venturebeat.com/orchestration/how-xmemory-cuts-token-costs-and-context-bloat-in-ai-agents">
-<strong>VentureBeat</strong>
-</a> ·
-
-<a href="https://x.com/dair_ai/status/2018765444702982395">
-<strong>DAIR.AI</strong>
-</a> ·
-
-<a href="https://www.getmaxim.ai/blog/xmemory-why-top-k-retrieval-breaks-for-agent-memory/">
-<strong>Maxim AI</strong>
-</a> ·
-
-<a href="https://www.linkedin.com/posts/jason-mcewen-57300029_artificialintelligence-machinelearning-agenticai-activity-7448667198040141824-jL6S/">
-<strong>EmergentMind</strong>
-</a>
-
+  <span class="featured-label">Recommendation:</span>
+  <a href="https://www.linkedin.com/posts/jason-mcewen-57300029_artificialintelligence-machinelearning-agenticai-activity-7448667198040141824-jL6S/"><strong>Alan Turing Institute</strong></a> ·
+  <a href="https://venturebeat.com/orchestration/how-xmemory-cuts-token-costs-and-context-bloat-in-ai-agents"><strong>VentureBeat</strong></a> ·
+  <a href="https://x.com/dair_ai/status/2018765444702982395"><strong>DAIR.AI</strong></a> ·
+  <a href="https://www.getmaxim.ai/blog/xmemory-why-top-k-retrieval-breaks-for-agent-memory/"><strong>Maxim AI</strong></a> ·
+  <a href="https://www.linkedin.com/posts/jason-mcewen-57300029_artificialintelligence-machinelearning-agenticai-activity-7448667198040141824-jL6S/"><strong>EmergentMind</strong></a>
 </span>
 
 </div>
@@ -694,11 +678,11 @@ Uses pretrained vision-language representations to generate questions requiring 
    ========================================== */
 
 .paper-box-image {
-  flex: 0 0 36%;
-  max-width: 300px;
+  flex: 0 0 42%;
+  max-width: 360px;
 
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
 
   margin-right: 24px;
@@ -715,7 +699,6 @@ Uses pretrained vision-language representations to generate questions requiring 
   height: auto;
 
   object-fit: contain;
-
   border-radius: 6px;
 }
 
@@ -750,10 +733,18 @@ Uses pretrained vision-language representations to generate questions requiring 
 
 .featured-by {
   display: block;
-  margin-top: 9px;
-  color: #666;
-  font-size: 0.88em;
-  line-height: 1.6;
+  margin-top: 8px;
+
+  font-size: 0.84em;
+  line-height: 1.4;
+
+  white-space: nowrap;
+}
+
+.featured-label {
+  color: #d73a49;
+  font-weight: 600;
+  margin-right: 3px;
 }
 
 /* ==========================================
@@ -820,6 +811,12 @@ Uses pretrained vision-language representations to generate questions requiring 
    Mobile
    ========================================== */
 
+@media (max-width: 700px) {
+  .featured-by {
+    white-space: normal;
+  }
+}
+  
 @media (max-width: 700px) {
 
   .pub-filters {
