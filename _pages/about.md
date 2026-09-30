@@ -135,7 +135,7 @@ Google Scholar
 <div class="paper-box-image">
 <div>
 <div class="badge">ICLR 2027 Submission</div>
-<img src="images/GroupAssisBenchmark_Intro.pdf"
+<img src="images/GroupAssisBenchmark_Intro.jpg"
      alt="GroupAssistBench"
      width="100%">
 </div>
@@ -165,7 +165,7 @@ A real-world group-memory benchmark showing that successful recall does not nece
 <div class="paper-box-image">
 <div>
 <div class="badge">NeurIPS 2026</div>
-<img src="images/xMemory_intro_ql.pdf"
+<img src="images/xMemory_intro_ql.jpg"
      alt="xMemory">
 </div>
 </div>
@@ -392,7 +392,7 @@ An efficient character-level adversarial attack that transforms discrete perturb
 <div class="paper-box-image">
 <div>
 <div class="badge">ICML 2026</div>
-<img src="images/siya_main.pdf"
+<img src="images/siya_main.png"
      alt="Contextual Hallucination Detection"
      width="100%">
 </div>
@@ -679,49 +679,45 @@ Uses pretrained vision-language representations to generate questions requiring 
 <style>
 
 .paper-box-image {
-  flex: 0 0 42%;
-  max-width: 420px;
+  position: relative;
+
+  flex: 0 0 40%;
+  max-width: 400px;
 
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
 
   margin-right: 24px;
 }
 
 .paper-box-image > div {
+  position: relative;
   width: 100%;
-  text-align: center;
-}
-
-.paper-box-image img {
-  width: 100%;
-  height: auto;
-
-  display: block;
-
-  object-fit: contain;
-
-  border-radius: 6px;
 }
 
 .paper-box-image .badge {
-  display: inline-block;
+  position: absolute;
 
-  margin-bottom: 8px;
+  top: 8px;
+  left: -10px;
+
+  z-index: 2;
+
   padding: 4px 9px;
 
-  border: 1px solid #d8dee4;
-  border-radius: 6px;
+  border-radius: 4px;
 
-  background: #f6f8fa;
-  color: #444;
+  background: #527bbd;
+  color: white;
 
   font-size: 0.76em;
   font-weight: 600;
   line-height: 1.2;
 
   white-space: nowrap;
+
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
 }
   
 </style>
