@@ -36,7 +36,7 @@ jobs:
           GOOGLE_SCHOLAR_ID: trDOsRsAAAAJ
         run: |
           mkdir -p assets
-          if python google_scholar_crawler/main.py; then
+            if timeout 120s python -u google_scholar_crawler/main.py; then
             if [ -f results/gs_data_shieldsio.json ]; then
               cp results/gs_data_shieldsio.json assets/gs_data_shieldsio.json
               echo "Google Scholar data updated"
