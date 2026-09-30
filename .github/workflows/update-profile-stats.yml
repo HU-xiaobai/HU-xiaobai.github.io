@@ -27,17 +27,24 @@ jobs:
       - name: Install dependencies
         run: pip install scholarly jsonpickle
 
+
+
       - name: Update Google Scholar citations
         env:
           GOOGLE_SCHOLAR_ID: trDOsRsAAAAJ
         run: |
           mkdir -p assets
           if python google_scholar_crawler/main.py; then
-            cp results/gs_data_shieldsio.json \
-               assets/gs_data_shieldsio.json
+            if [ -f results/gs_data_shieldsio.json ]; then
+              cp results/gs_data_shieldsio.json assets/gs_data_shieldsio.json
+              echo "Google Scholar data updated"
+            else
+              echo "::warning::Google Scholar JSON not generated"
+            fi
           else
-            echo "::warning::Google Scholar update failed"
+            echo "::warning::Google Scholar crawler failed"
           fi
+
 
       - name: Update GitHub total stars
         env:
@@ -94,18 +101,19 @@ jobs:
           print(f"Total GitHub stars: {total}")
           PY
 
+
       - name: Commit updated stats
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email \
-            "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add assets/gs_data_shieldsio.json \
-                  assets/stars_data_shieldsio.json 2>/dev/null || true
+          git add assets/*_data_shieldsio.json
 
           if ! git diff --cached --quiet; then
             git commit -m "Update profile statistics"
             git push
+            echo "Statistics committed successfully"
           else
             echo "No changes to commit"
           fi
+
