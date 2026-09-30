@@ -630,11 +630,11 @@ Uses pretrained vision-language representations to generate questions requiring 
   display: flex;
   align-items: center;
 
-  margin: 0 0 20px 0;
-  padding: 18px 20px;
+  margin: 0 0 14px 0;
+  padding: 12px 14px;
 
   border: 1px solid #e7e9ec;
-  border-radius: 10px;
+  border-radius: 9px;
   background: #fff;
 }
 
