@@ -60,7 +60,7 @@ My research focuses on **Agent Memory, Agent Harnesses, and Self-Improving AI Ag
 
 * **Agent Memory and Retrieval.** I investigate how agents organise, retrieve, and utilise past experience for reliable reasoning and decision-making. Building on my earlier work in [EEE-QA (LREC-COLING 2024)](https://aclanthology.org/2024.lrec-main.490/), [EmbQA (ACL 2025)](https://arxiv.org/abs/2503.01606), and [SPS (AAAI 2026 Oral)](https://arxiv.org/abs/2508.05909), I developed [xMemory (NeurIPS 2026)](https://arxiv.org/abs/2602.02007), a hierarchical memory framework extending structured retrieval beyond conventional RAG. My ongoing work explores **adaptive memory structures and utility-driven memory evolution**.
 
-* **Agent Harnesses and Evaluation.** I explore how memory, retrieval, and external agent systems support reliable behaviour in complex environments. My recent work includes [GroupAssistBench (ICLR 2027 Submission)](https://openreview.net/forum?id=cZtUReT2nl), evaluating memory-informed group assistance, and [CoMateEval (ICLR 2027 Submission)](https://openreview.net/forum?id=QcCZA9gmq6), benchmarking LLMs in dynamic multi-party collaboration.
+* **Agent Harnesses and Evaluation.** I explore how memory, retrieval, and external agent systems support reliable behaviour in complex environments. My recent work includes [GroupAssistBench (ICLR 2027 Submission)], evaluating memory-informed group assistance, and [CoMateEval (ICLR 2027 Submission)], benchmarking LLMs in dynamic multi-party collaboration.
 
 * **Self-Improving Agents (RSI).** My long-term interest is in enabling agents to iteratively improve their memory, harnesses, and behaviours through experience and feedback.
 
