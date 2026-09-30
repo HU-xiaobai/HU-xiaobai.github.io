@@ -89,96 +89,301 @@ Beyond these directions, my broader research experience includes **efficient LLM
 </div>
 🚀 I am always open to new collaborations and engaging discussions. Feel free to reach out if you are interested in working together or just want to chat!
 
+# 📚 Selected Publications
 
-# 📚 Text Generation & Retrieval/RAG
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 02.2026</div><img src='images/xMemory.png' alt="sym" width="75%"></div></div>
+<p style="font-size: 0.92em; margin-bottom: 14px;">
+† Equal contribution. * Corresponding author.
+Representative and first-author works are highlighted.
+For a complete publication list, please visit my
+<a href="https://scholar.google.com/citations?user=trDOsRsAAAAJ" target="_blank">
+Google Scholar
+</a>.
+</p>
+
+
+<div class="pub-filters">
+  <button class="pub-filter active" data-filter="all">All</button>
+  <button class="pub-filter" data-filter="memory">Memory & Retrieval</button>
+  <button class="pub-filter" data-filter="agent">Agents & Evaluation</button>
+  <button class="pub-filter" data-filter="reasoning">Reasoning & Reliability</button>
+  <button class="pub-filter" data-filter="multimodal">Multimodal</button>
+</div>
+
+
+<!-- ========================================================= -->
+<!-- GroupAssistBench -->
+<!-- ========================================================= -->
+
+<div class="paper-box pub-item leading-paper"
+     data-category="memory agent">
+
+<div class='paper-box-image'>
+<div>
+<div class="badge">ICLR 2027 Submission</div>
+<img src='images/groupassistbench.png' alt="GroupAssistBench" width="100%">
+</div>
+</div>
+
 <div class='paper-box-text' markdown="1">
 
-[Beyond RAG for Agent Memory: Retrieval by Decoupling and Aggregation](https://arxiv.org/abs/2602.02007) 
+[**One Assistant, Many Memories: Benchmarking Real-World Group Assistance When Recall Is Not Enough**](https://openreview.net/forum?id=cZtUReT2nl)
+
+**Zhanghao Hu**, Linhai Zhang, Qian Zhao, Qi Zhu, Yuan Hua, Di Liang, Jiasheng Si, Xin Zhao, Yulan He, Zhumin Chen, Lin Gui
+
+[**Paper**](https://openreview.net/forum?id=cZtUReT2nl)
+
+A real-world group-memory benchmark showing that successful recall does not necessarily translate into effective assistance, especially when memories are distributed or conflicting.
+
+</div>
+</div>
+
+
+<!-- ========================================================= -->
+<!-- xMemory -->
+<!-- ========================================================= -->
+
+<div class="paper-box pub-item leading-paper"
+     data-category="memory agent">
+
+<div class='paper-box-image'>
+<div>
+<div class="badge">NeurIPS 2026</div>
+<img src='images/xMemory.png' alt="xMemory" width="75%">
+</div>
+</div>
+
+<div class='paper-box-text' markdown="1">
+
+[**Beyond RAG for Agent Memory: Retrieval by Decoupling and Aggregation**](https://arxiv.org/abs/2602.02007)
 
 **Zhanghao Hu**, Qinglin Zhu, Hanqi Yan, Yulan He, Lin Gui
 
-[![GitHub stars](https://img.shields.io/github/stars/HU-xiaobai/xMemory?style=social)](https://github.com/HU-xiaobai/xMemory) [**[Project](https://zhanghao-xmemory.github.io/Academic-project-page-template/)**] [**[Code](https://github.com/HU-xiaobai/xMemory)**]  <span style="color:red">Recommendation:</span> [**[Alan Turing Institute](https://www.linkedin.com/posts/jason-mcewen-57300029_artificialintelligence-machinelearning-agenticai-activity-7448667198040141824-jL6S/.)**] [**[Venture Beat](https://venturebeat.com/orchestration/how-xmemory-cuts-token-costs-and-context-bloat-in-ai-agents)**][**[DAIR.AI](https://x.com/dair_ai/status/2018765444702982395)**] [**[Maxim AI](https://www.getmaxim.ai/blog/xmemory-why-top-k-retrieval-breaks-for-agent-memory/)**] [**[emergentmind](https://www.linkedin.com/posts/jason-mcewen-57300029_artificialintelligence-machinelearning-agenticai-activity-7448667198040141824-jL6S/.)**]
-- Standard RAG top-k is misaligned with agent memory, yielding redundant retrieval and brittle pruning in correlated dialogue streams.
-- Introduced decoupling→aggregation: semantic-component indexing with guided hierarchy building, plus structure-driven top-down retrieval with uncertainty-gated expansion.
-- Improved QA quality and token efficiency on LoCoMo/PerLTQA across multiple LLM backbones, validating component-level retrieval over top-k+pruning.
+[![GitHub stars](https://img.shields.io/github/stars/HU-xiaobai/xMemory?style=social)](https://github.com/HU-xiaobai/xMemory)
+[**Project**](https://zhanghao-xmemory.github.io/Academic-project-page-template/) /
+[**Code**](https://github.com/HU-xiaobai/xMemory) /
+[**Paper**](https://arxiv.org/abs/2602.02007)
+
+A hierarchical agent-memory framework that decouples correlated interactions into semantic components and aggregates them for structure-aware retrieval beyond conventional top-k RAG.
+
+<span class="featured-by">
+Featured by:
+<a href="https://venturebeat.com/orchestration/how-xmemory-cuts-token-costs-and-context-bloat-in-ai-agents">VentureBeat</a> ·
+<a href="https://x.com/dair_ai/status/2018765444702982395">DAIR.AI</a> ·
+<a href="https://www.getmaxim.ai/blog/xmemory-why-top-k-retrieval-breaks-for-agent-memory/">Maxim AI</a>
+</span>
+
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026 Oral</div><img src='images/xcompress.png' alt="sym" width="100%"></div></div>
+
+<!-- ========================================================= -->
+<!-- SPS -->
+<!-- ========================================================= -->
+
+<div class="paper-box pub-item leading-paper"
+     data-category="memory reasoning">
+
+<div class='paper-box-image'>
+<div>
+<div class="badge">AAAI 2026 Oral</div>
+<img src='images/xcompress.png' alt="SPS" width="100%">
+</div>
+</div>
+
 <div class='paper-box-text' markdown="1">
 
-[Beyond Perplexity: Let the Reader Select Retrieval Summaries via Spectrum Projection Score](https://arxiv.org/abs/2508.05909)  <span style="color:red">Oral🌟 around 4% 900/23680</span>
+[**Beyond Perplexity: Let the Reader Select Retrieval Summaries via Spectrum Projection Score**](https://arxiv.org/abs/2508.05909)
 
 **Zhanghao Hu**, Qinglin Zhu, Siya Qi, Yulan He, Hanqi Yan, Lin Gui
 
-[**Project**] <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> [**[Code](https://zhanghao-aaai2026-sps.github.io/AAAI2026-SPS/)**]
-- Proposes SPS, a supervision-free metric to assess semantic alignment between retrieved summaries and LLM representations.
-- Introduces xCompress, an inference-time controller that ranks and compresses retrievals to improve generation and clarify retrieval–generation interaction.
+<span style="color:red">Oral 🌟</span> /
+[**Project**](https://zhanghao-aaai2026-sps.github.io/AAAI2026-SPS/) /
+[**Paper**](https://arxiv.org/abs/2508.05909)
+
+A reader-aware metric and inference-time retrieval controller for selecting summaries according to their alignment with downstream LLM representations.
+
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2025 Main</div><img src='images/EmbQA.jpg' alt="sym" width="100%"></div></div>
+
+<!-- ========================================================= -->
+<!-- CoMateEval -->
+<!-- ========================================================= -->
+
+<div class="paper-box pub-item leading-paper"
+     data-category="agent">
+
+<div class='paper-box-image'>
+<div>
+<div class="badge">ICLR 2027 Submission</div>
+<img src='images/comateeval.png' alt="CoMateEval" width="100%">
+</div>
+</div>
+
 <div class='paper-box-text' markdown="1">
 
-[Beyond Prompting: An Efficient Embedding Framework for Open-Domain Question Answering](https://arxiv.org/abs/2503.01606)
+[**CoMateEval: Benchmarking LLMs Across Team Roles in Dynamic Multi-Party Collaboration**](https://openreview.net/forum?id=QcCZA9gmq6)
+
+Xianjie Wu, **Zhanghao Hu**, Tianle Gu, Wuzhenghong Wen, Xiaohang Xu, Yuhui Wang, et al.
+
+[**Paper**](https://openreview.net/forum?id=QcCZA9gmq6)
+
+A benchmark for evaluating how well LLMs fulfil diverse team responsibilities across dynamic multi-party collaborative environments.
+
+</div>
+</div>
+
+
+<!-- ========================================================= -->
+<!-- EmbQA -->
+<!-- ========================================================= -->
+
+<div class="paper-box pub-item leading-paper"
+     data-category="memory reasoning">
+
+<div class='paper-box-image'>
+<div>
+<div class="badge">ACL 2025 Main</div>
+<img src='images/EmbQA.jpg' alt="EmbQA" width="100%">
+</div>
+</div>
+
+<div class='paper-box-text' markdown="1">
+
+[**Beyond Prompting: An Efficient Embedding Framework for Open-Domain Question Answering**](https://arxiv.org/abs/2503.01606)
 
 **Zhanghao Hu**, Hanqi Yan, Qinglin Zhu, Zhenyi Shen, Yulan He, Lin Gui
 
-[**Project**] <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> [**[Code](https://zhanghao-acl25-embqa.github.io/ACL2025-EmbQA/)**]
-- Reordering retrieved passages to highlight those most likely to contain correct answers by refining query representations via lightweight linear layers under an unsupervised contrastive learning objective.
-- Introduce an exploratory embedding that broadens the model's latent semantic space to diversify candidate generation and employs an entropy-based selection mechanism to choose the most confident answer automatically
+[**Project**](https://zhanghao-acl25-embqa.github.io/ACL2025-EmbQA/) /
+[**Paper**](https://arxiv.org/abs/2503.01606)
+
+An embedding-level framework for refining retrieval and diversifying answer generation without relying on additional prompting.
+
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">COLING 2024</div><img src='images/eee-qa.png' alt="sym" width="100%"></div></div>
+
+<!-- ========================================================= -->
+<!-- EEE-QA -->
+<!-- ========================================================= -->
+
+<div class="paper-box pub-item leading-paper"
+     data-category="memory">
+
+<div class='paper-box-image'>
+<div>
+<div class="badge">LREC-COLING 2024</div>
+<img src='images/eee-qa.png' alt="EEE-QA" width="100%">
+</div>
+</div>
+
 <div class='paper-box-text' markdown="1">
 
-[EEE-QA: Exploring Effective and Efficient Question-Answer Representations](https://aclanthology.org/2024.lrec-main.490/)
+[**EEE-QA: Exploring Effective and Efficient Question-Answer Representations**](https://aclanthology.org/2024.lrec-main.490/)
 
-**Zhanghao Hu***, Yijun Yang*, Junjie Xu*, Yifu Qiu, Pinzhen Chen
+**Zhanghao Hu**†, Yijun Yang†, Junjie Xu†, Yifu Qiu, Pinzhen Chen
 
-[**Project**] <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- This work challenges the existing question-answer encoding convention and explores finer representations. We experiment with different PLMs, and with and without the integration of knowledge graphs. Results prove that the memory efficacy of the proposed techniques is with little sacrifice in performance.
+[**Paper**](https://aclanthology.org/2024.lrec-main.490/)
+
+Studies effective and memory-efficient question-answer representations while maintaining competitive QA performance.
+
 </div>
 </div>
 
-# 🤔 Latent & Efficient Reasoning
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2025 Main</div><img src='images/codi.png' alt="sym" width="100%"></div></div>
+
+<!-- ========================================================= -->
+<!-- CODI -->
+<!-- hidden by default -->
+<!-- ========================================================= -->
+
+<div class="paper-box pub-item extra-pub"
+     data-category="reasoning">
+
+<div class='paper-box-image'>
+<div>
+<div class="badge">EMNLP 2025 Main</div>
+<img src='images/codi.png' alt="CODI" width="100%">
+</div>
+</div>
+
 <div class='paper-box-text' markdown="1">
 
-[CODI: Compressing Chain-of-Thought into Continuous Space via Self-Distillation](https://arxiv.org/abs/2502.21074)
+[**CODI: Compressing Chain-of-Thought into Continuous Space via Self-Distillation**](https://arxiv.org/abs/2502.21074)
 
 Zhenyi Shen, Hanqi Yan, Linhai Zhang, **Zhanghao Hu**, Yali Du, Yulan He
 
-[**Project**] <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- CODI (Continuous Chain-of-Thought via Self-Distillation) is a novel framework that distils CoT into a continuous space, where a shared model acts as both teacher and student, jointly learning explicit and implicit CoT while aligning their hidden activation on the token generating the final answer. 
+[**Paper**](https://arxiv.org/abs/2502.21074)
+
+Compresses explicit chain-of-thought reasoning into continuous latent representations through self-distillation.
+
 </div>
 </div>
 
-# <img width="30" height="30" alt="image" src="https://github.com/user-attachments/assets/adeff2bb-5e12-4cd6-8d3f-5549b6185215" /> Multi-modal interpretability & application
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI 2025</div><img src='images/dance_motion.png' alt="sym" width="100%"></div></div>
+
+<!-- ========================================================= -->
+<!-- Human Motion Generation -->
+<!-- hidden by default -->
+<!-- ========================================================= -->
+
+<div class="paper-box pub-item extra-pub"
+     data-category="multimodal">
+
+<div class='paper-box-image'>
+<div>
+<div class="badge">TPAMI 2025</div>
+<img src='images/dance_motion.png' alt="Human Motion Generation" width="100%">
+</div>
+</div>
+
 <div class='paper-box-text' markdown="1">
-[Human motion video generation: A survey](https://www.techrxiv.org/doi/full/10.36227/techrxiv.172793202.22697340)
 
-Haiwei Xue, Xiangyang Luo, **Zhanghao Hu**, Xin Zhang, Xunzhi Xiang, Yuqin Dai, Jianzhuang Liu, Zhensong Zhang, Minglei Li, Jian Yang, Fei Ma, Zhiyong Wu, Changpeng Yang, Zonghong Dai, Fei Richard Yu
+[**Human Motion Video Generation: A Survey**](https://www.techrxiv.org/doi/full/10.36227/techrxiv.172793202.22697340)
 
-[**Project**] <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- This paper addresses this gap by providing an in-depth survey of human motion video generation, encompassing over ten sub-tasks, and detailing the five key phases of the generation process: input, motion planning, motion video generation, refinement, and output. 
+Haiwei Xue, Xiangyang Luo, **Zhanghao Hu**, Xin Zhang, Xunzhi Xiang, Yuqin Dai, et al.
+
+[**Paper**](https://www.techrxiv.org/doi/full/10.36227/techrxiv.172793202.22697340)
+
+A comprehensive survey and taxonomy of human-motion video generation across the full generation pipeline and major task settings.
+
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL ALVR 2024</div><img src='images/video_causal.png' alt="sym" width="100%"></div></div>
+
+<!-- ========================================================= -->
+<!-- VQG -->
+<!-- hidden by default -->
+<!-- ========================================================= -->
+
+<div class="paper-box pub-item extra-pub"
+     data-category="multimodal">
+
+<div class='paper-box-image'>
+<div>
+<div class="badge">ACL ALVR 2024</div>
+<img src='images/video_causal.png' alt="Visual Question Generation" width="100%">
+</div>
+</div>
+
 <div class='paper-box-text' markdown="1">
 
-[Causal and Temporal Inference in Visual Question Generation by Utilizing Pre-trained Models](https://aclanthology.org/2024.alvr-1.12/)
+[**Causal and Temporal Inference in Visual Question Generation by Utilizing Pre-trained Models**](https://aclanthology.org/2024.alvr-1.12/)
 
 **Zhanghao Hu**, Frank Keller
 
-[**Project**] <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Our study introduces a framework that leverages vision-text matching pre-trained models to guide language models in recognizing event-entity relationships within videos and generating inferential questions.
+[**Paper**](https://aclanthology.org/2024.alvr-1.12/)
+
+Uses pretrained vision-language representations to generate questions requiring causal and temporal inference over videos.
+
 </div>
 </div>
+
+
+<div class="show-more-container">
+  <button id="show-more-pubs" class="show-more-pubs">
+    Show more publications
+  </button>
+</div>
+
 
 # 😆 Mentee
 - **LLM Safety** 
@@ -223,4 +428,190 @@ Haiwei Xue, Xiangyang Luo, **Zhanghao Hu**, Xin Zhang, Xunzhi Xiang, Yuqin Dai, 
 # 💻 Internships
 - *2024.04 - 2024.08*, Research Intern at [01.AI](https://www.01.ai/).
 
-<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?d=lC8xf7GWbLCBnWh7I-lueayltNozk_xR93g5LfejVDI&cl=ffffff&w=a"></script>
+<style>
+
+/* =========================
+   Publication Filters
+   ========================= */
+
+.pub-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 14px 0 24px 0;
+}
+
+.pub-filter,
+.show-more-pubs {
+  border: 1px solid #d0d7de;
+  background: #ffffff;
+  color: #444;
+  border-radius: 18px;
+  padding: 5px 13px;
+  font-size: 0.88em;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.pub-filter:hover,
+.show-more-pubs:hover {
+  background: #f3f4f6;
+}
+
+.pub-filter.active {
+  background: #24292f;
+  color: #ffffff;
+  border-color: #24292f;
+}
+
+
+/* =========================
+   Publication Cards
+   ========================= */
+
+.leading-paper {
+  border-left: 3px solid #888;
+}
+
+/* hide non-core papers on the default All view */
+.extra-pub {
+  display: none;
+}
+
+.featured-by {
+  display: block;
+  margin-top: 6px;
+  font-size: 0.83em;
+  color: #666;
+}
+
+.show-more-container {
+  text-align: center;
+  margin: 15px 0 28px 0;
+}
+
+
+/* =========================
+   Mobile
+   ========================= */
+
+@media (max-width: 600px) {
+
+  .pub-filters {
+    gap: 6px;
+  }
+
+  .pub-filter {
+    padding: 4px 9px;
+    font-size: 0.80em;
+  }
+
+}
+
+</style>
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+
+  const filters = document.querySelectorAll(".pub-filter");
+  const papers = document.querySelectorAll(".pub-item");
+  const showMoreButton = document.getElementById("show-more-pubs");
+
+  let expanded = false;
+  let currentFilter = "all";
+
+  function updatePublications() {
+
+    papers.forEach((paper) => {
+
+      const categories = paper.dataset.category.split(" ");
+
+      const matchesFilter =
+        currentFilter === "all" ||
+        categories.includes(currentFilter);
+
+      const isExtra =
+        paper.classList.contains("extra-pub");
+
+      if (!matchesFilter) {
+
+        paper.style.display = "none";
+
+      } else if (
+        currentFilter === "all" &&
+        isExtra &&
+        !expanded
+      ) {
+
+        paper.style.display = "none";
+
+      } else {
+
+        paper.style.display = "";
+
+      }
+
+    });
+
+
+    /* Show-more button only appears in "All" */
+    if (showMoreButton) {
+
+      if (currentFilter === "all") {
+
+        showMoreButton.style.display = "inline-block";
+
+        showMoreButton.textContent =
+          expanded
+            ? "Show fewer publications"
+            : "Show more publications";
+
+      } else {
+
+        showMoreButton.style.display = "none";
+
+      }
+
+    }
+
+  }
+
+
+  filters.forEach((button) => {
+
+    button.addEventListener("click", function () {
+
+      filters.forEach((b) =>
+        b.classList.remove("active")
+      );
+
+      this.classList.add("active");
+
+      currentFilter = this.dataset.filter;
+
+      updatePublications();
+
+    });
+
+  });
+
+
+  if (showMoreButton) {
+
+    showMoreButton.addEventListener("click", function () {
+
+      expanded = !expanded;
+
+      updatePublications();
+
+    });
+
+  }
+
+
+  updatePublications();
+
+});
+
+</script>
