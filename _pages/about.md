@@ -71,6 +71,8 @@ Beyond these directions, my broader research experience includes **efficient LLM
 <div style="max-height: 150px; overflow-y: scroll; padding-right: 10px;">
 
 <ul>
+    <li><b>2026.09</b>: Our paper <i>Beyond RAG for Agent Memory: Retrieval by Decoupling and Aggregation</i> has been accepted by <b>Neurips 2026</b>! 🎉</li>
+    <li><b>2026.09</b>: Our paper <i> Beyond Task Boundaries: Instruction-Level Parameter Isolation for Supervised Fine-Tuning</i> has been accepted by <b>EMNLP Oral</b>! 🎉</li>
     <li><b>2026.05</b>: Our paper <i>Detecting Contextual Hallucinations in LLMs with Frequency-Aware Attention</i> has been accepted by <b>ICML 2026</b>! 🎉</li>
     <li><b>2026.04</b>:🧑‍💻Started internship at Tencent Yuanbao Qingyun Intern for Agent Memory <img src="https://www.google.com/s2/favicons?sz=64&domain_url=https://yuanbao.tencent.com" alt="Tencent Yuanbao" width="16" height="16" />! 🎉</li>
     <li><b>2026.04</b>: Our paper <i>OSCR-Attack: One-Shot Character Level Attacks through Self-Optimizing Continuous Relaxation</i> has been accepted by <b>ACL 2026 findings</b>! 🎉</li>
