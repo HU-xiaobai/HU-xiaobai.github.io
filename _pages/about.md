@@ -641,10 +641,14 @@ Uses pretrained vision-language representations to generate questions requiring 
 .paper-box-image {
   position: relative;
 
-  flex: 0 0 42%;
-  max-width: 420px;
+  flex: 0 0 46%;
+  max-width: 470px;
 
-  margin-right: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-right: 18px;
 }
 
 .paper-box-image > div {
@@ -734,8 +738,9 @@ Uses pretrained vision-language representations to generate questions requiring 
 }
 
 .paper-box-text p {
-  margin-top: 7px;
-  margin-bottom: 7px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  line-height: 1.45;
 }
 
 .paper-highlight {
@@ -745,10 +750,10 @@ Uses pretrained vision-language representations to generate questions requiring 
 
 .featured-by {
   display: block;
-  margin-top: 8px;
+  margin-top: 5px;
 
-  font-size: 0.84em;
-  line-height: 1.4;
+  font-size: 0.82em;
+  line-height: 1.3;
 
   white-space: nowrap;
 }
