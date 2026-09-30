@@ -205,7 +205,7 @@ A benchmark for evaluating how well LLMs fulfil diverse team responsibilities ac
 
 [**Beyond RAG for Agent Memory: Retrieval by Decoupling and Aggregation**](https://arxiv.org/abs/2602.02007)
 
-**Zhanghao Hu**, Qinglin Zhu, Hanqi Yan, Yulan He, Lin Gui
+**Zhanghao Hu**†, Qinglin Zhu†, Runcong Zhao, Di Liang, Hanqi Yan, Yulan He, Lin Gui
 
 [![GitHub stars](https://img.shields.io/github/stars/HU-xiaobai/xMemory?style=social)](https://github.com/HU-xiaobai/xMemory)
 [**Project**](https://zhanghao-xmemory.github.io/Academic-project-page-template/) /
@@ -372,7 +372,7 @@ Compresses explicit chain-of-thought reasoning into continuous latent representa
 
 [**OSCR-Attack: One-Shot Character Level Attacks through Self-Optimizing Continuous Relaxation**](https://aclanthology.org/2026.findings-acl.1235/)
 
-Lingyi Kong, Zhuo Liu, **Zhanghao Hu**, Qilong Qiu, Yutao Yang, Jingjing Xue, Zheng Wang, Lin Gui, Feiping Nie
+Lingyi Kong†, Zhuo Liu†, **Zhanghao Hu**†, Qilong Qiu, Yutao Yang, Jingjing Xue, Zheng Wang, Lin Gui, Feiping Nie
 
 [**Paper**](https://aclanthology.org/2026.findings-acl.1235/)
 
