@@ -631,39 +631,44 @@ Uses pretrained vision-language representations to generate questions requiring 
 
 .paper-box.pub-item {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
 
-  position: relative;
-
-  margin: 0 0 22px 0;
-  padding: 20px;
+  margin: 0 0 20px 0;
+  padding: 18px 20px;
 
   border: 1px solid #e7e9ec;
   border-radius: 10px;
-
   background: #fff;
+}
 
-  box-shadow: none;
+.paper-box-image {
+  position: relative;
 
-  transition:
-    transform 0.18s ease,
-    border-color 0.18s ease,
-    box-shadow 0.18s ease;
+  flex: 0 0 42%;
+  max-width: 420px;
+
+  margin-right: 24px;
+}
+
+.paper-box-image > div {
+  position: relative;
+  width: 100%;
+}
+
+.paper-box-image img {
+  display: block;
+
+  width: 100%;
+  height: auto;
+
+  object-fit: contain;
+  border-radius: 6px;
 }
 
 .paper-box-text {
   flex: 1;
   min-width: 0;
 }
-
-.paper-box.pub-item:hover {
-  transform: translateY(-2px);
-
-  border-color: #d1d5da;
-
-  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.055);
-}
-
 
 /* representative works */
 
