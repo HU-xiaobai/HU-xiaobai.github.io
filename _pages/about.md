@@ -521,9 +521,6 @@ Uses pretrained vision-language representations to generate questions requiring 
 # 💻 Internships
 - *2024.04 - 2024.08*, Research Intern at [01.AI](https://www.01.ai/).
 
-.extra-pub {
-  display: none;
-}
 <style>
 
 /* ==========================================
@@ -681,8 +678,6 @@ Uses pretrained vision-language representations to generate questions requiring 
    Image
    ========================================== */
 
-<style>
-
 .paper-box-image {
   position: relative;
 
@@ -724,8 +719,6 @@ Uses pretrained vision-language representations to generate questions requiring 
 
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
 }
-  
-</style>
 
 /* ==========================================
    Text
