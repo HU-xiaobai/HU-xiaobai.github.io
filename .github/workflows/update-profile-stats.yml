@@ -31,12 +31,14 @@ jobs:
 
 
 
+
       - name: Update Google Scholar citations
         env:
           GOOGLE_SCHOLAR_ID: trDOsRsAAAAJ
         run: |
           mkdir -p assets
-            if timeout 120s python -u google_scholar_crawler/main.py; then
+
+          if timeout 120s python -u google_scholar_crawler/main.py; then
             if [ -f results/gs_data_shieldsio.json ]; then
               cp results/gs_data_shieldsio.json assets/gs_data_shieldsio.json
               echo "Google Scholar data updated"
@@ -44,7 +46,12 @@ jobs:
               echo "::warning::Google Scholar JSON not generated"
             fi
           else
-            echo "::warning::Google Scholar crawler failed"
+            exit_code=$?
+            if [ "$exit_code" -eq 124 ]; then
+              echo "::warning::Google Scholar timed out after 120 seconds"
+            else
+              echo "::warning::Google Scholar failed with exit code $exit_code"
+            fi
           fi
 
 
