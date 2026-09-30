@@ -135,7 +135,7 @@ Google Scholar
 <div class="paper-box-image">
 <div>
 <div class="badge">ICLR 2027 Submission</div>
-<img src="images/groupassistbench.png"
+<img src="images/GroupAssisBenchmark_Intro.pdf"
      alt="GroupAssistBench"
      width="100%">
 </div>
@@ -165,7 +165,7 @@ A real-world group-memory benchmark showing that successful recall does not nece
 <div class="paper-box-image">
 <div>
 <div class="badge">NeurIPS 2026</div>
-<img src="images/xMemory.png"
+<img src="images/xMemory_intro_ql.pdf"
      alt="xMemory">
 </div>
 </div>
@@ -241,7 +241,7 @@ A reader-aware metric and inference-time retrieval controller for selecting summ
 <div class="paper-box-image">
 <div>
 <div class="badge">ICLR 2027 Submission</div>
-<img src="images/comateeval.png"
+<img src="images/CoMateSim.png"
      alt="CoMateEval"
      width="100%">
 </div>
@@ -362,7 +362,7 @@ Compresses explicit chain-of-thought reasoning into continuous latent representa
 <div class="paper-box-image">
 <div>
 <div class="badge">ACL 2026 Findings</div>
-<img src="images/oscr.png"
+<img src="images/oscr_attack.png"
      alt="OSCR-Attack"
      width="100%">
 </div>
@@ -392,7 +392,7 @@ An efficient character-level adversarial attack that transforms discrete perturb
 <div class="paper-box-image">
 <div>
 <div class="badge">ICML 2026</div>
-<img src="images/hallucination.png"
+<img src="images/siya_main.pdf"
      alt="Contextual Hallucination Detection"
      width="100%">
 </div>
@@ -705,6 +705,25 @@ Uses pretrained vision-language representations to generate questions requiring 
   border-radius: 6px;
 }
 
+.paper-box-image .badge {
+  display: inline-block;
+
+  margin-bottom: 8px;
+  padding: 4px 9px;
+
+  border: 1px solid #d8dee4;
+  border-radius: 6px;
+
+  background: #f6f8fa;
+  color: #444;
+
+  font-size: 0.76em;
+  font-weight: 600;
+  line-height: 1.2;
+
+  white-space: nowrap;
+}
+  
 </style>
 
 /* ==========================================
