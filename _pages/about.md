@@ -21,7 +21,33 @@ redirect_from:
 
 Hi, everyone! I am currently a second-year PhD student (10.2024-) at [King's College London, NLP group](https://kclnlp.github.io/), School of Informatics. I am fortunate to be supervised by [Dr. Lin Gui](https://sites.google.com/view/lin-gui/about-me) and [Prof. Yulan He](https://sites.google.com/view/yulanhe). I finished my MSC AI at the University of Edinburgh and my BEng EEE project jointly at the University of Edinburgh and North China Electric Power University(NCEPU). I am fortunate to be supervised by [Prof. Frank Keller](https://homepages.inf.ed.ac.uk/keller/) for my MSC and [Dr. Jiabin Jia](https://eng.ed.ac.uk/about/people/dr-jiabin-jia) for my BEng.
 
-In addition to research, I interned for four months as a full-stack engineer specialising in voice cloning algorithms at [01.AI](https://www.01.ai/). I am currently a Qingyun intern at Tencent YuanBao <img src="https://www.google.com/s2/favicons?sz=64&domain_url=https://yuanbao.tencent.com" alt="Tencent Yuanbao" width="16" height="16" /> for Agent Memory, welcome any chat with me!
+I am currently a Qingyun intern at Tencent YuanBao <img src="https://www.google.com/s2/favicons?sz=64&domain_url=https://yuanbao.tencent.com" alt="Tencent Yuanbao" width="16" height="16" /> for Agent Memory, welcome any chat with me!
+
+
+<div class="profile-links" style="margin: 16px 0 24px 0; line-height: 2;">
+
+  <a href="mailto:zhanghao.hu@kcl.ac.uk">Email</a> /
+  <a href="https://x.com/HZhanghao">Twitter</a> /
+  <a href="https://xhslink.cn/o/5za2nfHuc2y">RedNote</a>
+
+  <br>
+
+  <a href="https://scholar.google.com/citations?user=trDOsRsAAAAJ"
+     target="_blank" rel="noopener noreferrer">
+    <img
+      src="https://img.shields.io/endpoint?url=https%3A%2F%2Fhu-xiaobai.github.io%2Fassets%2Fgs_data_shieldsio.json&amp;logo=Google%20Scholar&amp;labelColor=f6f6f6&amp;color=9cf&amp;style=flat&amp;label=citations"
+      alt="Google Scholar citations">
+  </a>
+
+  <a href="https://github.com/HU-xiaobai"
+     target="_blank" rel="noopener noreferrer">
+    <img
+      src="https://img.shields.io/endpoint?url=https%3A%2F%2Fhu-xiaobai.github.io%2Fassets%2Fstars_data_shieldsio.json&amp;logo=github&amp;logoColor=181717&amp;labelColor=f6f6f6&amp;color=9cf&amp;style=flat&amp;label=stars"
+      alt="GitHub stars">
+  </a>
+
+</div>
+
 
 # 🔍 Research Summary
 My research focuses on **agent memory, retrieval, and adaptive architectures for long-horizon LLM agents**, with broader interests in reliable LLM behaviour and multimodal reasoning. I currently study how interaction histories, multi-party conversations, and tool-use trajectories can be **evaluated, organised, retrieved, and continually adapted** to support reliable reasoning, planning, and decision-making. My long-term goal is to build principled AI agents that can efficiently organise accumulated experience, adapt their memory structures to downstream utility, and reliably leverage past interactions in complex, long-horizon environments. Specifically, my latest research focuses on:
