@@ -25,42 +25,31 @@ I am currently a Qingyun intern at Tencent YuanBao <img src="https://www.google.
 
 
 
-<div class="profile-links" style="margin: 16px 0 24px 0; line-height: 2;">
+
+<div class="profile-links" style="margin: 16px 0 24px 0; white-space: nowrap; line-height: 2; font-size: 14px;">
 
   <a href="mailto:zhanghao.hu@kcl.ac.uk">
     <i class="fas fa-envelope"></i> Email
   </a> /
 
-  <a href="https://x.com/HZhanghao" target="_blank" rel="noopener noreferrer">
+  <a href="https://x.com/HZhanghao" target="_blank">
     <i class="fab fa-twitter"></i> Twitter
   </a> /
 
-  <a href="https://xhslink.cn/o/5za2nfHuc2y" target="_blank" rel="noopener noreferrer">
+  <a href="https://xhslink.cn/o/5za2nfHuc2y" target="_blank">
     <i class="fas fa-book-open"></i> RedNote
-  </a>
-
-  <br>
-
-  <a href="https://scholar.google.com/citations?user=trDOsRsAAAAJ"
-     target="_blank" rel="noopener noreferrer">
-    <i class="fas fa-graduation-cap"></i> Google Scholar
-  </a>
-  <a href="https://scholar.google.com/citations?user=trDOsRsAAAAJ"
-     target="_blank" rel="noopener noreferrer">
-    <img
-      src="https://img.shields.io/endpoint?url=https%3A%2F%2Fhu-xiaobai.github.io%2Fassets%2Fgs_data_shieldsio.json&amp;logo=Google%20Scholar&amp;labelColor=f6f6f6&amp;color=9cf&amp;style=flat&amp;label=citations"
-      alt="Google Scholar citations" style="vertical-align: middle;">
   </a> /
 
-  <a href="https://github.com/HU-xiaobai"
-     target="_blank" rel="noopener noreferrer">
+  <a href="https://scholar.google.com/citations?user=trDOsRsAAAAJ" target="_blank">
+    <i class="fas fa-graduation-cap"></i> Google Scholar
+    <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fhu-xiaobai.github.io%2Fassets%2Fgs_data_shieldsio.json&amp;logo=Google%20Scholar&amp;labelColor=f6f6f6&amp;color=9cf&amp;style=flat&amp;label=citations"
+         alt="Citations" style="vertical-align: middle;">
+  </a> /
+
+  <a href="https://github.com/HU-xiaobai" target="_blank">
     <i class="fab fa-github"></i> GitHub
-  </a>
-  <a href="https://github.com/HU-xiaobai"
-     target="_blank" rel="noopener noreferrer">
-    <img
-      src="https://img.shields.io/endpoint?url=https%3A%2F%2Fhu-xiaobai.github.io%2Fassets%2Fstars_data_shieldsio.json&amp;logo=github&amp;logoColor=181717&amp;labelColor=f6f6f6&amp;color=9cf&amp;style=flat&amp;label=stars"
-      alt="GitHub stars" style="vertical-align: middle;">
+    <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fhu-xiaobai.github.io%2Fassets%2Fstars_data_shieldsio.json&amp;logo=github&amp;logoColor=181717&amp;labelColor=f6f6f6&amp;color=9cf&amp;style=flat&amp;label=stars"
+         alt="Stars" style="vertical-align: middle;">
   </a>
 
 </div>
