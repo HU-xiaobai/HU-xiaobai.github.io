@@ -1,0 +1,111 @@
+
+name: Update Profile Stats
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 8 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install scholarly jsonpickle
+
+      - name: Update Google Scholar citations
+        env:
+          GOOGLE_SCHOLAR_ID: trDOsRsAAAAJ
+        run: |
+          mkdir -p assets
+          if python google_scholar_crawler/main.py; then
+            cp results/gs_data_shieldsio.json \
+               assets/gs_data_shieldsio.json
+          else
+            echo "::warning::Google Scholar update failed"
+          fi
+
+      - name: Update GitHub total stars
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import urllib.request
+
+          username = "HU-xiaobai"
+          total = 0
+          page = 1
+
+          while True:
+              url = (
+                  f"https://api.github.com/users/{username}/repos"
+                  f"?per_page=100&page={page}&type=owner"
+              )
+              req = urllib.request.Request(
+                  url,
+                  headers={
+                      "Authorization": f"Bearer {os.environ['GH_TOKEN']}",
+                      "Accept": "application/vnd.github+json",
+                      "User-Agent": "profile-stats-action",
+                  }
+              )
+
+              with urllib.request.urlopen(req, timeout=30) as response:
+                  repos = json.load(response)
+
+              if not repos:
+                  break
+
+              for repo in repos:
+                  if not repo.get("fork", False):
+                      total += repo["stargazers_count"]
+
+              page += 1
+
+          data = {
+              "schemaVersion": 1,
+              "label": "stars",
+              "message": str(total),
+              "color": "9cf"
+          }
+
+          os.makedirs("assets", exist_ok=True)
+          with open(
+              "assets/stars_data_shieldsio.json", "w"
+          ) as f:
+              json.dump(data, f, indent=2)
+
+          print(f"Total GitHub stars: {total}")
+          PY
+
+      - name: Commit updated stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/gs_data_shieldsio.json \
+                  assets/stars_data_shieldsio.json 2>/dev/null || true
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Update profile statistics"
+            git push
+          else
+            echo "No changes to commit"
+          fi
