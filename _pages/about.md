@@ -156,6 +156,37 @@ A real-world group-memory benchmark showing that successful recall does not nece
 
 
 <!-- ========================================================= -->
+<!-- CoMateEval -->
+<!-- ========================================================= -->
+
+<div class="paper-box pub-item leading-paper"
+     data-category="agent">
+
+<div class="paper-box-image">
+<div>
+<div class="badge">ICLR 2027 Submission</div>
+<img src="images/CoMateSim.png"
+     alt="CoMateEval"
+     width="100%">
+</div>
+</div>
+
+<div class="paper-box-text" markdown="1">
+
+[**CoMateEval: Benchmarking LLMs Across Team Roles in Dynamic Multi-Party Collaboration**](https://openreview.net/forum?id=QcCZA9gmq6)
+
+Xianjie Wu, **Zhanghao Hu**, Tianle Gu, Wuzhenghong Wen, Xiaohang Xu, Yuhui Wang, Yujia Chen, Naifu Liang, et al.
+
+[**Paper**](https://openreview.net/forum?id=QcCZA9gmq6)
+
+A benchmark for evaluating how well LLMs fulfil diverse team responsibilities across dynamic multi-party collaborative environments.
+
+</div>
+</div>
+
+
+
+<!-- ========================================================= -->
 <!-- xMemory -->
 <!-- ========================================================= -->
 
@@ -229,37 +260,6 @@ A reader-aware metric and inference-time retrieval controller for selecting summ
 
 </div>
 </div>
-
-
-<!-- ========================================================= -->
-<!-- CoMateEval -->
-<!-- ========================================================= -->
-
-<div class="paper-box pub-item leading-paper"
-     data-category="agent">
-
-<div class="paper-box-image">
-<div>
-<div class="badge">ICLR 2027 Submission</div>
-<img src="images/CoMateSim.png"
-     alt="CoMateEval"
-     width="100%">
-</div>
-</div>
-
-<div class="paper-box-text" markdown="1">
-
-[**CoMateEval: Benchmarking LLMs Across Team Roles in Dynamic Multi-Party Collaboration**](https://openreview.net/forum?id=QcCZA9gmq6)
-
-Xianjie Wu, **Zhanghao Hu**, Tianle Gu, Wuzhenghong Wen, Xiaohang Xu, Yuhui Wang, Yujia Chen, Naifu Liang, et al.
-
-[**Paper**](https://openreview.net/forum?id=QcCZA9gmq6)
-
-A benchmark for evaluating how well LLMs fulfil diverse team responsibilities across dynamic multi-party collaborative environments.
-
-</div>
-</div>
-
 
 <!-- ========================================================= -->
 <!-- EmbQA -->
