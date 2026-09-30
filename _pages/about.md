@@ -166,8 +166,7 @@ A real-world group-memory benchmark showing that successful recall does not nece
 <div>
 <div class="badge">NeurIPS 2026</div>
 <img src="images/xMemory.png"
-     alt="xMemory"
-     width="80%">
+     alt="xMemory">
 </div>
 </div>
 
@@ -677,9 +676,11 @@ Uses pretrained vision-language representations to generate questions requiring 
    Image
    ========================================== */
 
+<style>
+
 .paper-box-image {
   flex: 0 0 42%;
-  max-width: 360px;
+  max-width: 420px;
 
   display: flex;
   align-items: flex-start;
@@ -695,18 +696,16 @@ Uses pretrained vision-language representations to generate questions requiring 
 
 .paper-box-image img {
   width: 100%;
-  max-width: 100%;
   height: auto;
 
+  display: block;
+
   object-fit: contain;
+
   border-radius: 6px;
 }
 
-.paper-box-image .badge {
-  display: inline-block;
-
-  margin-bottom: 8px;
-}
+</style>
 
 /* ==========================================
    Text
