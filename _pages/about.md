@@ -23,6 +23,8 @@ Hi, everyone! I am currently a Third-year PhD student (10.2024-) at [King's Coll
 
 I am currently a Qingyun intern at Tencent YuanBao <img src="https://www.google.com/s2/favicons?sz=64&domain_url=https://yuanbao.tencent.com" alt="Tencent Yuanbao" width="16" height="16" /> for Agent Memory, welcome any chat with me!
 
+⭐ I am actively seeking job opportunities. Please feel free to contact me about relevant openings.
+
 
 
 
@@ -254,7 +256,8 @@ Oral 🌟 around 4% (900 / 23,680)
 </span>
 /
 [**Project**](https://zhanghao-aaai2026-sps.github.io/AAAI2026-SPS/) /
-[**Paper**](https://arxiv.org/abs/2508.05909)
+[**Paper**](https://arxiv.org/abs/2508.05909) / 
+[**Code**](https://github.com/HU-xiaobai/xCompress/tree/main)
 
 A reader-aware metric and inference-time retrieval controller for selecting summaries according to their alignment with downstream LLM representations.
 
