@@ -526,16 +526,7 @@ Uses pretrained vision-language representations to generate questions requiring 
 
 # 🌍 Visitor Analytics
 
-<hr style="margin-top: 40px; margin-bottom: 22px;">
-
 <div class="visitor-dashboard">
-  
-  <iframe
-    src="https://cloud.umami.is/share/g1ljg9L9sZEpQVAZ"
-    class="umami-metrics"
-    loading="lazy"
-    title="Visitor Metrics">
-  </iframe>
 
   <iframe
     src="https://cloud.umami.is/share/uk17RfRiaVszncZk"
@@ -545,18 +536,6 @@ Uses pretrained vision-language representations to generate questions requiring 
   </iframe>
 
   <div class="visitor-grid">
-
-    <iframe
-      src="https://cloud.umami.is/share/u7rw1fSg7tRj4PHC"
-      loading="lazy"
-      title="Visitor Map">
-    </iframe>
-
-    <iframe
-      src="https://cloud.umami.is/share/BAJ1AyU0lJwGKl3q"
-      loading="lazy"
-      title="Weekly Traffic">
-    </iframe>
 
   </div>
 
