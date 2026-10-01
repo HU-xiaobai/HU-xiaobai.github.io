@@ -703,34 +703,7 @@ Uses pretrained vision-language representations to generate questions requiring 
   border-radius: 9px;
   background: #fff;
 }
-  
-.paper-box-image {
-  position: relative;
 
-  flex: 0 0 54%;
-  max-width: 560px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  margin-right: 16px;
-}
-
-.paper-box-image > div {
-  position: relative;
-  width: 100%;
-}
-
-.paper-box-image img {
-  display: block;
-
-  width: 100%;
-  height: auto;
-
-  object-fit: contain;
-  border-radius: 5px;
-}
 
 .paper-box-text {
   flex: 1;
@@ -748,17 +721,33 @@ Uses pretrained vision-language representations to generate questions requiring 
    Image
    ========================================== */
 
+/* ==========================================
+   Publication image
+   ========================================== */
+
+.paper-box.pub-item {
+  display: flex;
+  align-items: flex-start;
+
+  margin: 0 0 12px 0;
+  padding: 10px 12px;
+
+  border: 1px solid #e7e9ec;
+  border-radius: 9px;
+  background: #fff;
+}
+
 .paper-box-image {
   position: relative;
 
-  flex: 0 0 40%;
-  max-width: 400px;
+  flex: 0 0 54%;
+  max-width: 560px;
+
+  margin-right: 16px;
 
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-
-  margin-right: 24px;
 }
 
 .paper-box-image > div {
@@ -766,20 +755,31 @@ Uses pretrained vision-language representations to generate questions requiring 
   width: 100%;
 }
 
+.paper-box-image img {
+  display: block;
+
+  width: 100%;
+  height: auto;
+
+  object-fit: contain;
+  border-radius: 5px;
+}
+
+/* Conference / venue badge */
 .paper-box-image .badge {
   position: absolute;
 
-  top: 8px;
-  left: -10px;
+  top: 6px;
+  left: 6px;
 
-  z-index: 2;
+  z-index: 10;
 
   padding: 4px 9px;
 
   border-radius: 4px;
 
   background: #527bbd;
-  color: white;
+  color: #fff;
 
   font-size: 0.76em;
   font-weight: 600;
