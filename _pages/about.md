@@ -524,28 +524,93 @@ Uses pretrained vision-language representations to generate questions requiring 
 # 💻 Internships
 - *2024.04 - 2024.08*, Research Intern at [01.AI](https://www.01.ai/).
 
+# 🌍 Visitor Analytics
 
+<hr style="margin-top: 40px; margin-bottom: 22px;">
+
+<div class="visitor-dashboard">
+  
+  <iframe
+    src="https://cloud.umami.is/share/g1ljg9L9sZEpQVAZ"
+    class="umami-metrics"
+    loading="lazy"
+    title="Visitor Metrics">
+  </iframe>
+
+  <iframe
+    src="https://cloud.umami.is/share/uk17RfRiaVszncZk"
+    class="umami-chart"
+    loading="lazy"
+    title="Visitor Trends">
+  </iframe>
+
+  <div class="visitor-grid">
+
+    <iframe
+      src="https://cloud.umami.is/share/u7rw1fSg7tRj4PHC"
+      loading="lazy"
+      title="Visitor Map">
+    </iframe>
+
+    <iframe
+      src="https://cloud.umami.is/share/BAJ1AyU0lJwGKl3q"
+      loading="lazy"
+      title="Weekly Traffic">
+    </iframe>
+
+  </div>
+
+</div>
 
 <style>
 
-.visitor-section {
+.visitor-dashboard {
+  width: 100%;
+  margin: 30px auto 10px auto;
+}
+
+.visitor-dashboard h2 {
   text-align: center;
-  margin: 20px 0 10px 0;
+  margin-bottom: 18px;
 }
 
-.visitor-title {
-  margin-bottom: 10px;
-  font-size: 0.95em;
-  font-weight: 600;
-  color: #555;
+.visitor-dashboard iframe {
+  width: 100%;
+  border: 1px solid #e7e9ec;
+  border-radius: 10px;
+  background: #fff;
 }
 
-.visitor-section img {
-  max-width: 100%;
-  height: auto;
-  border: 0;
+.umami-metrics {
+  height: 150px;
+  margin-bottom: 14px;
 }
 
+.umami-chart {
+  height: 340px;
+  margin-bottom: 14px;
+}
+
+.visitor-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.visitor-grid iframe {
+  height: 360px;
+}
+
+@media (max-width: 700px) {
+  .visitor-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .visitor-grid iframe {
+    height: 340px;
+  }
+}
+  
 /* ==========================================
    Publication intro
    ========================================== */
