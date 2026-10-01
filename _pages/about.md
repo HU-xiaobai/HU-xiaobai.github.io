@@ -528,15 +528,13 @@ Uses pretrained vision-language representations to generate questions requiring 
 
 <div class="visitor-dashboard">
 
-  <iframe
-    src="https://cloud.umami.is/share/uk17RfRiaVszncZk"
-    class="umami-chart"
-    loading="lazy"
-    title="Visitor Trends">
-  </iframe>
-
-  <div class="visitor-grid">
-
+  <div class="umami-wrapper">
+    <iframe
+      src="https://cloud.umami.is/share/uk17RfRiaVszncZk"
+      class="umami-chart"
+      loading="lazy"
+      title="Visitor Trends">
+    </iframe>
   </div>
 
 </div>
@@ -545,49 +543,50 @@ Uses pretrained vision-language representations to generate questions requiring 
 
 .visitor-dashboard {
   width: 100%;
-  margin: 30px auto 10px auto;
+  margin: 22px auto 10px auto;
 }
 
-.visitor-dashboard h2 {
-  text-align: center;
-  margin-bottom: 18px;
-}
-
-.visitor-dashboard iframe {
+/* 外部可见区域 */
+.umami-wrapper {
   width: 100%;
+  height: 285px;
+
+  overflow: hidden;
+
   border: 1px solid #e7e9ec;
   border-radius: 10px;
+
   background: #fff;
 }
 
-.umami-metrics {
-  height: 150px;
-  margin-bottom: 14px;
-}
-
+/* Umami 页面本身缩小 */
 .umami-chart {
-  height: 340px;
-  margin-bottom: 14px;
+  display: block;
+
+  width: 125%;
+  height: 355px;
+
+  border: 0;
+
+  transform: scale(0.8);
+  transform-origin: top left;
 }
 
-.visitor-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 14px;
-}
 
-.visitor-grid iframe {
-  height: 360px;
-}
-
+/* Mobile */
 @media (max-width: 700px) {
-  .visitor-grid {
-    grid-template-columns: 1fr;
+
+  .umami-wrapper {
+    height: 260px;
   }
 
-  .visitor-grid iframe {
-    height: 340px;
+  .umami-chart {
+    width: 117.65%;
+    height: 305px;
+
+    transform: scale(0.85);
   }
+
 }
   
 /* ==========================================
