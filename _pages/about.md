@@ -524,7 +524,37 @@ Uses pretrained vision-language representations to generate questions requiring 
 # 💻 Internships
 - *2024.04 - 2024.08*, Research Intern at [01.AI](https://www.01.ai/).
 
+<hr style="margin-top: 40px; margin-bottom: 20px;">
+
+<div class="visitor-section">
+
+  <div class="visitor-title">
+    🌍 Visitors
+  </div>
+
+<a href="https://info.flagcounter.com/9FcU"><img src="https://s01.flagcounter.com/count2/9FcU/bg_FFFFFF/txt_555555/border_DDDDDD/columns_2/maxflags_10/viewers_0/labels_0/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+
+</div>
+
 <style>
+
+.visitor-section {
+  text-align: center;
+  margin: 20px 0 10px 0;
+}
+
+.visitor-title {
+  margin-bottom: 10px;
+  font-size: 0.95em;
+  font-weight: 600;
+  color: #555;
+}
+
+.visitor-section img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
 
 /* ==========================================
    Publication intro
