@@ -727,7 +727,7 @@ Uses pretrained vision-language representations to generate questions requiring 
 
 .paper-box.pub-item {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
 
   margin: 0 0 12px 0;
   padding: 10px 12px;
