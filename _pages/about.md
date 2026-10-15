@@ -149,7 +149,7 @@ Google Scholar
 
 **Zhanghao Hu**†, Linhai Zhang†, Qian Zhao, Qi Zhu, Yuan Hua, Di Liang, Jiasheng Si, Xin Zhao, Yulan He, Zhumin Chen, Lin Gui
 
-[**Paper**](https://openreview.net/forum?id=cZtUReT2nl)
+[**Paper**]
 
 A real-world group-memory benchmark showing that successful recall does not necessarily translate into effective assistance, especially when memories are distributed or conflicting.
 
@@ -179,7 +179,7 @@ A real-world group-memory benchmark showing that successful recall does not nece
 
 Xianjie Wu†, **Zhanghao Hu**†, Tianle Gu†, Wuzhenghong Wen, Xiaohang Xu, Yuhui Wang, Yujia Chen, Naifu Liang, et al.
 
-[**Paper**](https://openreview.net/forum?id=QcCZA9gmq6)
+[**Paper**]
 
 A benchmark for evaluating how well LLMs fulfil diverse team responsibilities across dynamic multi-party collaborative environments.
 
