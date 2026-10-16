@@ -145,7 +145,7 @@ Google Scholar
 
 <div class="paper-box-text" markdown="1">
 
-[**One Assistant, Many Memories: Benchmarking Real-World Group Assistance When Recall Is Not Enough**](https://openreview.net/forum?id=cZtUReT2nl)
+[**One Assistant, Many Memories: Benchmarking Real-World Group Assistance When Recall Is Not Enough**]
 
 **Zhanghao Hu**†, Linhai Zhang†, Qian Zhao, Qi Zhu, Yuan Hua, Di Liang, Jiasheng Si, Xin Zhao, Yulan He, Zhumin Chen, Lin Gui
 
@@ -175,7 +175,7 @@ A real-world group-memory benchmark showing that successful recall does not nece
 
 <div class="paper-box-text" markdown="1">
 
-[**CoMateEval: Benchmarking LLMs Across Team Roles in Dynamic Multi-Party Collaboration**](https://openreview.net/forum?id=QcCZA9gmq6)
+[**CoMateEval: Benchmarking LLMs Across Team Roles in Dynamic Multi-Party Collaboration**]
 
 Xianjie Wu†, **Zhanghao Hu**†, Tianle Gu†, Wuzhenghong Wen, Xiaohang Xu, Yuhui Wang, Yujia Chen, Naifu Liang, et al.
 
