@@ -70,7 +70,7 @@ Beyond these directions, my broader research experience includes **efficient LLM
 
 # 🔥 News
 
-<div style="max-height: 150px; overflow-y: scroll; padding-right: 10px;">
+<div style="max-height: 250px; overflow-y: scroll; padding-right: 10px;">
 
 <ul>
     <li><b>2026.09</b>: Our paper <i>Beyond RAG for Agent Memory: Retrieval by Decoupling and Aggregation</i> has been accepted by <b>Neurips 2026</b>! 🎉</li>
