@@ -209,6 +209,10 @@ A benchmark for evaluating how well LLMs fulfil diverse team responsibilities ac
 
 **Zhanghao Hu**†, Qinglin Zhu†, Runcong Zhao, Di Liang, Hanqi Yan, Yulan He, Lin Gui
 
+
+🔥 <span style="color: #d32f2f; font-weight: bold;">Featured on</span> [**X (47.5K views)**](https://x.com/dair_ai/status/2018765444702982395) <span style="color: #d32f2f; font-weight: bold;">and RedNote (28K views:</span> [**Post 1**](https://xhslink.cn/o/AnNLPGP0oI9), [**Post 2**](https://xhslink.cn/o/78rr8wrgNmQ)<span style="color: #d32f2f; font-weight: bold;">), and recommended by the</span> [**Alan Turing Institute's Chief Scientist**](https://www.linkedin.com/posts/jason-mcewen-57300029_artificialintelligence-machinelearning-agenticai-share-7448667194734899200-XkfJ/).
+
+
 [![GitHub stars](https://img.shields.io/github/stars/HU-xiaobai/xMemory?style=social)](https://github.com/HU-xiaobai/xMemory)
 [**Project**](https://zhanghao-xmemory.github.io/Academic-project-page-template/) /
 [**Code**](https://github.com/HU-xiaobai/xMemory) /
