@@ -136,7 +136,7 @@ Google Scholar
 
 <div class="paper-box-image">
 <div>
-<div class="badge">ICLR 2027 Submission</div>
+<div class="badge">Arxiv 2026.11</div>
 <img src="images/GroupAssisBenchmark_Intro.jpg"
      alt="GroupAssistBench"
      width="100%">
@@ -149,7 +149,11 @@ Google Scholar
 
 **Zhanghao Hu**†, Linhai Zhang†, Qian Zhao, Qi Zhu, Yuan Hua, Di Liang, Jiasheng Si, Xin Zhao, Yulan He, Zhumin Chen, Lin Gui
 
-[**Paper**]
+[**Paper**](https://arxiv.org/abs/2611.04867)
+[**HF Paper**](https://huggingface.co/papers/2611.04867)
+[**Code**](https://github.com/Tencent/GroupAssistBench)
+[**Dataset**](https://huggingface.co/datasets/tencent/GroupAssistBench)
+[**Project**](https://zhanghao-groupassisbench.github.io/Academic-project-page-template/)
 
 A real-world group-memory benchmark showing that successful recall does not necessarily translate into effective assistance, especially when memories are distributed or conflicting.
 
@@ -179,9 +183,9 @@ A real-world group-memory benchmark showing that successful recall does not nece
 
 Xianjie Wu†, **Zhanghao Hu**†, Tianle Gu†, Wuzhenghong Wen, Xiaohang Xu, Yuhui Wang, Yujia Chen, Naifu Liang, et al.
 
-[**Paper**]
-
 A benchmark for evaluating how well LLMs fulfil diverse team responsibilities across dynamic multi-party collaborative environments.
+
+[**Paper**]
 
 </div>
 </div>
