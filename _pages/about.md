@@ -73,6 +73,7 @@ Beyond these directions, my broader research experience includes **efficient LLM
 <div style="max-height: 250px; overflow-y: scroll; padding-right: 10px;">
 
 <ul>
+    <li><b>2026.09</b>: Our paper <i>Beyond Static Cropping: Layer-Adaptive Visual Localization and Decoding Enhancement</i> has been accepted by <b>EACL 2026 Findings</b>! 🎉</li>
     <li><b>2026.09</b>: Our paper <i>Beyond RAG for Agent Memory: Retrieval by Decoupling and Aggregation</i> has been accepted by <b>Neurips 2026</b>! 🎉</li>
     <li><b>2026.09</b>: Our paper <i> Beyond Task Boundaries: Instruction-Level Parameter Isolation for Supervised Fine-Tuning</i> has been accepted by <b>EMNLP Oral</b>! 🎉</li>
     <li><b>2026.05</b>: Our paper <i>Detecting Contextual Hallucinations in LLMs with Frequency-Aware Attention</i> has been accepted by <b>ICML 2026</b>! 🎉</li>
@@ -149,11 +150,11 @@ Google Scholar
 
 **Zhanghao Hu**†, Linhai Zhang†, Qian Zhao, Qi Zhu, Yuan Hua, Di Liang, Jiasheng Si, Xin Zhao, Yulan He, Zhumin Chen, Lin Gui
 
-[**Paper**](https://arxiv.org/abs/2611.04867)
-[**HF Paper**](https://huggingface.co/papers/2611.04867)
-[**Code**](https://github.com/Tencent/GroupAssistBench)
-[**Dataset**](https://huggingface.co/datasets/tencent/GroupAssistBench)
-[**Project**](https://zhanghao-groupassisbench.github.io/Academic-project-page-template/)
+[**Paper**](https://arxiv.org/abs/2611.04867) /
+[**HF Paper**](https://huggingface.co/papers/2611.04867) /
+[**Code**](https://github.com/Tencent/GroupAssistBench) /
+[**Dataset**](https://huggingface.co/datasets/tencent/GroupAssistBench) /
+[**Project**](https://zhanghao-groupassisbench.github.io/Academic-project-page-template/) /
 
 A real-world group-memory benchmark showing that successful recall does not necessarily translate into effective assistance, especially when memories are distributed or conflicting.
 
